@@ -20,7 +20,7 @@ RuleSet: CommonHeaderLevel1
 
 RuleSet: CommonHeaderNotification
 * timestamp 1..1 //notifikasjonTid//
-* entry[0].resource.MessageDefinition.category 1..1 = notification
+* entry[0].resource.MessageDefinition.category = notification
 * entry[0].resource.MessageDefinition.category 1..1 
 
 
