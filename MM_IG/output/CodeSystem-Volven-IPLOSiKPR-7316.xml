@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="Volven-IPLOSiKPR-7316"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7316 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">N<a name="Volven-IPLOSiKPR-7316-N"> </a></td><td>Original</td><td>Ny hendelse</td></tr><tr><td style="white-space:nowrap">M<a name="Volven-IPLOSiKPR-7316-M"> </a></td><td>KorrigerErstatt</td><td>Korrigering av original hendelse med ny informasjon som erstatter tilsvarende original informasjon</td></tr><tr><td style="white-space:nowrap">T<a name="Volven-IPLOSiKPR-7316-T"> </a></td><td>KorrigerSuppler</td><td>Korrigering av original hendelse med tilleggsinformasjon</td></tr><tr><td style="white-space:nowrap">C<a name="Volven-IPLOSiKPR-7316-C"> </a></td><td>KorrigerAnnuller</td><td>Annullering av original hendelse</td></tr></table></div>
+  </text>
+  <url value="http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7316"/>
+  <version value="0.1.0"/>
+  <name value="volven-IPLOSiKPR-7316"/>
+  <title value="StatusNotifikasjon"/>
+  <status value="active"/>
+  <date value="2022-01-11T09:06:07+01:00"/>
+  <description value="Benyttes for å angi status på innrapporterte hendelser"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="N"/>
+    <display value="Original"/>
+    <definition value="Ny hendelse"/>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="KorrigerErstatt"/>
+    <definition value="Korrigering av original hendelse med ny informasjon som erstatter tilsvarende original informasjon"/>
+  </concept>
+  <concept>
+    <code value="T"/>
+    <display value="KorrigerSuppler"/>
+    <definition value="Korrigering av original hendelse med tilleggsinformasjon"/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="KorrigerAnnuller"/>
+    <definition value="Annullering av original hendelse"/>
+  </concept>
+</CodeSystem>

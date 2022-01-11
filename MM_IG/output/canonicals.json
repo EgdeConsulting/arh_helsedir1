@@ -1,0 +1,148 @@
+[
+  {
+    "id": "Volven-IPLOSiKPR-7316",
+    "type": "CodeSystem",
+    "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7316",
+    "version": "0.1.0",
+    "name": "volven-IPLOSiKPR-7316"
+  },
+  {
+    "id": "Volven-IPLOSiKPR-7371",
+    "type": "CodeSystem",
+    "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7371",
+    "version": "0.1.0",
+    "name": "volven-IPLOSiKPR-7371"
+  },
+  {
+    "id": "Volven-IPLOSiKPR-8471",
+    "type": "CodeSystem",
+    "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-8471",
+    "version": "0.1.0",
+    "name": "volven-IPLOSiKPR-8471"
+  },
+  {
+    "id": "Volven-IPLOSiKPR-9151",
+    "type": "CodeSystem",
+    "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-9151",
+    "version": "0.1.0",
+    "name": "volven-IPLOSiKPR-9151"
+  },
+  {
+    "id": "fhir.kprmm",
+    "type": "ImplementationGuide",
+    "url": "http://hddr.no//ImplementationGuide/fhir.kprmm",
+    "version": "0.1.0",
+    "name": "KPR_MM_IG"
+  },
+  {
+    "id": "kpr-mm-iplos-i-kpr-bundle1",
+    "type": "StructureDefinition",
+    "url": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1",
+    "version": "0.1.0",
+    "name": "KPRMiniMeldingBundle1"
+  },
+  {
+    "id": "kpr-mm-iplos-i-kpr-bundle2",
+    "type": "StructureDefinition",
+    "url": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2",
+    "version": "0.1.0",
+    "name": "KPRMiniMeldingBundle2"
+  },
+  {
+    "id": "kpr-mm-iplos-i-kpr-common-header",
+    "type": "StructureDefinition",
+    "url": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-common-header",
+    "version": "0.1.0",
+    "name": "KPRMiniMeldingMessageHeader"
+  },
+  {
+    "id": "kpr-mm-iplos-i-kpr-kommune",
+    "type": "StructureDefinition",
+    "url": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune",
+    "version": "0.1.0",
+    "name": "XPRmunicipalityOrganization"
+  },
+  {
+    "id": "kpr-mm-iplos-i-kpr-replace-header",
+    "type": "StructureDefinition",
+    "url": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-replace-header",
+    "version": "0.1.0",
+    "name": "KPRMiniMeldingMessageHeaderErstatt"
+  },
+  {
+    "id": "kpr-mm-iplos-i-kpr-submission-header",
+    "type": "StructureDefinition",
+    "url": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header",
+    "version": "0.1.0",
+    "name": "KPRMiniMeldingMessageHeaderSubmission"
+  },
+  {
+    "id": "kpr-mm-iplos-i-kpr-supplement-header",
+    "type": "StructureDefinition",
+    "url": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-supplement-header",
+    "version": "0.1.0",
+    "name": "KPRMiniMeldingMessageHeaderSuppler"
+  },
+  {
+    "id": "kpr-mm-iplos-i-kpr-tjeneste",
+    "type": "StructureDefinition",
+    "url": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste",
+    "version": "0.1.0",
+    "name": "KPRMiniMeldingTjeneste"
+  },
+  {
+    "id": "kpr-mm-iplos-i-kpr-tjeneste-org",
+    "type": "StructureDefinition",
+    "url": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste-org",
+    "version": "0.1.0",
+    "name": "KPRMiniMeldingServiceOrganization"
+  },
+  {
+    "id": "kpr-mm-iplos-i-kpr-void-header",
+    "type": "StructureDefinition",
+    "url": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-void-header",
+    "version": "0.1.0",
+    "name": "KPRMiniMeldingMessageHeaderAnnuler"
+  },
+  {
+    "id": "xpr-pasient",
+    "type": "StructureDefinition",
+    "url": "http://hddr.no//StructureDefinition/xpr-pasient",
+    "version": "0.1.0",
+    "name": "XPRPatient"
+  },
+  {
+    "id": "Volven-IPLOSiKPR-7316",
+    "type": "ValueSet",
+    "url": "http://hddr.no//ValueSet/Volven-IPLOSiKPR-7316",
+    "version": "0.1.0",
+    "name": "KPRMM2eventCodingVS"
+  },
+  {
+    "id": "Volven-IPLOSiKPR-7371",
+    "type": "ValueSet",
+    "url": "http://hddr.no//ValueSet/Volven-IPLOSiKPR-7371",
+    "version": "0.1.0",
+    "name": "KPRMM1eventCodingVS"
+  },
+  {
+    "id": "Volven-IPLOSiKPR-8471",
+    "type": "ValueSet",
+    "url": "http://hddr.no//ValueSet/Volven-IPLOSiKPR-8471",
+    "version": "0.1.0",
+    "name": "KPRMMKontaktTypeVS"
+  },
+  {
+    "id": "Volven-IPLOSiKPR-9151",
+    "type": "ValueSet",
+    "url": "http://hddr.no//ValueSet/Volven-IPLOSiKPR-9151",
+    "version": "0.1.0",
+    "name": "KPRMMtjenesteTypeVS"
+  },
+  {
+    "id": "minimeldingMessageDefinitionExample1",
+    "type": "MessageDefinition",
+    "url": "http://hddr.no/MessageDefinition/minimeldingMessageDefinitionExample1",
+    "version": "0.1.0"
+  }
+]

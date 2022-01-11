@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="Volven-IPLOSiKPR-7371"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7371 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">K<a name="Volven-IPLOSiKPR-7371-K"> </a></td><td>Melding for kontinuerlige oppdateringe</td></tr></table></div>
+  </text>
+  <url value="http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7371"/>
+  <version value="0.1.0"/>
+  <name value="volven-IPLOSiKPR-7371"/>
+  <title value="Meldingstype"/>
+  <status value="active"/>
+  <date value="2022-01-11T09:06:07+01:00"/>
+  <description value="Beskrivelse av hvordan melding skal behandles ved ankomst til NPR"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="K"/>
+    <display value="Melding for kontinuerlige oppdateringe"/>
+  </concept>
+</CodeSystem>

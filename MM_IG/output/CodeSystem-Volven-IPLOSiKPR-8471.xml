@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="Volven-IPLOSiKPR-8471"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-8471 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="Volven-IPLOSiKPR-8471-1"> </a></td><td>Teknisk produksjon</td></tr><tr><td style="white-space:nowrap">15<a name="Volven-IPLOSiKPR-8471-15"> </a></td><td>EPJ-leverandør, meldingsvalidering</td></tr></table></div>
+  </text>
+  <url value="http://hddr.no//CodeSystem/Volven-IPLOSiKPR-8471"/>
+  <version value="0.1.0"/>
+  <name value="volven-IPLOSiKPR-8471"/>
+  <title value="Kontaktperson type"/>
+  <status value="active"/>
+  <date value="2022-01-11T09:06:07+01:00"/>
+  <description value="Benyttes for å angi status på innrapporterte hendelser"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="1"/>
+    <display value="Teknisk produksjon"/>
+  </concept>
+  <concept>
+    <code value="15"/>
+    <display value="EPJ-leverandør, meldingsvalidering"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,17 @@
+{
+  "resourceType": "MessageDefinition",
+  "id": "minimeldingMessageDefinitionExample1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"minimeldingMessageDefinitionExample1\" </p></div><p><b>url</b>: <code>http://hddr.no/MessageDefinition/minimeldingMessageDefinitionExample1</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: active</p><p><b>date</b>: 2021-12-06T06:37:30.7379426Z</p><p><b>event</b>: admin-notify (Details: http://hddr.no/ code admin-notify = 'admin-notify', stated as 'null')</p><p><b>category</b>: notification</p></div>"
+  },
+  "url": "http://hddr.no/MessageDefinition/minimeldingMessageDefinitionExample1",
+  "version": "0.1.0",
+  "status": "active",
+  "date": "2021-12-06T06:37:30.7379426+00:00",
+  "eventCoding": {
+    "system": "http://hddr.no/",
+    "code": "admin-notify"
+  },
+  "category": "notification"
+}

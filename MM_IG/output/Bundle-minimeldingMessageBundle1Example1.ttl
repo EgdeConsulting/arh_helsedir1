@@ -1,0 +1,72 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hddr.no/Bundle/minimeldingMessageBundle1Example1> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "minimeldingMessageBundle1Example1"];
+  fhir:Resource.meta [
+     fhir:Element.id [ fhir:value "70e5a9f4-971b-44c5-807f-065400d60b56" ];
+     fhir:Meta.profile [
+       fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1";
+       fhir:index 0;
+       fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1>
+     ]
+  ];
+  fhir:Bundle.identifier [
+     fhir:Identifier.value [ fhir:value "56.0.0" ]
+  ];
+  fhir:Bundle.type [ fhir:value "message"];
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.fullUrl [ fhir:value "http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1" ];
+     fhir:Bundle.entry.resource <http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1>
+  ] .
+
+<http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1> a fhir:MessageHeader;
+  fhir:Resource.id [ fhir:value "minimeldingMessageHeaderExample1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-common-header";
+       fhir:index 0;
+       fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-common-header>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"minimeldingMessageHeaderExample1\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-kpr-mm-iplos-i-kpr-common-header.html\">Mini melding Message Header til nivå 1</a></p></div><p><b>event</b>: K (Details: [not stated] code K = 'K', stated as 'null')</p><h3>Destinations</h3><table class=\"grid\"><tr><td>-</td><td><b>Endpoint</b></td></tr><tr><td>*</td><td><code>8139520</code></td></tr></table><p><b>sender</b>: <a href=\"XPRmunicipalityOrganizationExample1\">XPRmunicipalityOrganizationExample1</a></p><h3>Sources</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Software</b></td><td><b>Version</b></td><td><b>Contact</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>McGlynn - Schinner</td><td>4.8.4</td><td>5.2.1</td><td>Johnston, Wilkinson and Kilback</td><td><code>8139519</code></td></tr></table><p><b>focus</b>: <a href=\"KPRminiMeldingMessageBundle2Example1\">KPRminiMeldingMessageBundle2Example1</a></p></div>"
+  ];
+  fhir:MessageHeader.eventCoding [
+     fhir:Coding.code [ fhir:value "K" ]
+  ];
+  fhir:MessageHeader.destination [
+     fhir:index 0;
+     fhir:MessageHeader.destination.endpoint [ fhir:value "8139520" ]
+  ];
+  fhir:MessageHeader.sender [
+     fhir:Reference.reference [ fhir:value "XPRmunicipalityOrganizationExample1" ]
+  ];
+  fhir:MessageHeader.source [
+     fhir:MessageHeader.source.name [ fhir:value "McGlynn - Schinner" ];
+     fhir:MessageHeader.source.software [ fhir:value "4.8.4" ];
+     fhir:MessageHeader.source.version [ fhir:value "5.2.1" ];
+     fhir:MessageHeader.source.contact [
+       fhir:ContactPoint.value [ fhir:value "Johnston, Wilkinson and Kilback" ]
+     ];
+     fhir:MessageHeader.source.endpoint [ fhir:value "8139519" ]
+  ];
+  fhir:MessageHeader.focus [
+     fhir:index 0;
+     fhir:Reference.reference [ fhir:value "KPRminiMeldingMessageBundle2Example1" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hddr.no/Bundle/minimeldingMessageBundle1Example1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

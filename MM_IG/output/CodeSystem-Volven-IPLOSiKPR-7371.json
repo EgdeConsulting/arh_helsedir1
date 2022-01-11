@@ -1,0 +1,24 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Volven-IPLOSiKPR-7371",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7371 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">K<a name=\"Volven-IPLOSiKPR-7371-K\"> </a></td><td>Melding for kontinuerlige oppdateringe</td></tr></table></div>"
+  },
+  "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7371",
+  "version": "0.1.0",
+  "name": "volven-IPLOSiKPR-7371",
+  "title": "Meldingstype",
+  "status": "active",
+  "date": "2022-01-11T09:06:07+01:00",
+  "description": "Beskrivelse av hvordan melding skal behandles ved ankomst til NPR",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "K",
+      "display": "Melding for kontinuerlige oppdateringe"
+    }
+  ]
+}

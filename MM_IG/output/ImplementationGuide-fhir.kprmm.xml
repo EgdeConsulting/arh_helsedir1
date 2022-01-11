@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="fhir.kprmm"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>KPR_MM_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://hddr.no//ImplementationGuide/fhir.kprmm</pre></div>
+  </text>
+  <url value="http://hddr.no//ImplementationGuide/fhir.kprmm"/>
+  <version value="0.1.0"/>
+  <name value="KPR_MM_IG"/>
+  <status value="draft"/>
+  <date value="2022-01-11T09:06:07+01:00"/>
+  <packageId value="fhir.kprmm"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2022+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hddr.no//history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"/>
+      </reference>
+      <name value="KPR minimelding Melding"/>
+      <description value="Resource bundle for the mini-melding"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"/>
+      </reference>
+      <name value="KPR minimelding Notifikasjon"/>
+      <description value="Resource bundle for the mini-melding notifikasjon"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/kpr-mm-iplos-i-kpr-common-header"/>
+      </reference>
+      <name value="Mini melding Message Header til nivå 1"/>
+      <description value="KPR minimelding Melding Message Header"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/kpr-mm-iplos-i-kpr-void-header"/>
+      </reference>
+      <name value="Mini melding Message Header til korriger annuller"/>
+      <description value="KPR minimelding Melding KorrigerSuppler Header"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/kpr-mm-iplos-i-kpr-replace-header"/>
+      </reference>
+      <name value="Mini melding Message Header til korriger erstatt"/>
+      <description value="KPR minimelding Melding KorrigerErstatt Header"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/kpr-mm-iplos-i-kpr-submission-header"/>
+      </reference>
+      <name value="Mini melding Message Header til original innrapportering"/>
+      <description value="KPR minimelding Melding Submission Header"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/kpr-mm-iplos-i-kpr-supplement-header"/>
+      </reference>
+      <name value="Mini melding Message Header til korriger suppler"/>
+      <description value="KPR minimelding Melding KorrigerSuppler Header"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste-org"/>
+      </reference>
+      <name value="KPR minimelding utøvende organisasjon"/>
+      <description value="Organisasjonsnummer for organisasjon som utfører tjenesten"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"/>
+      </reference>
+      <name value="Mini melding tjeneste payload"/>
+      <description value="KPR minimelding tjeneste generisk"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/xpr-pasient"/>
+      </reference>
+      <name value="XPR bruker/pasient"/>
+      <description value="Bruker eller pasient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/kpr-mm-iplos-i-kpr-kommune"/>
+      </reference>
+      <name value="KPR minimelding Kommune"/>
+      <description value="Helse- og omsorgstjenester definert i helse og omsorgsloven"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/Volven-IPLOSiKPR-7371"/>
+      </reference>
+      <name value="Status notifikasjon"/>
+      <description value="Angivelse av status på denne innrapoerterte notifikasjon"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/Volven-IPLOSiKPR-7316"/>
+      </reference>
+      <name value="Status notifikasjon"/>
+      <description value="Angivelse av status på denne innrapoerterte notifikasjon"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/Volven-IPLOSiKPR-8471"/>
+      </reference>
+      <name value="Kontaktperson type"/>
+      <description value="Hvilken sektor innen Helseinstitusjon eller tjeneste innen den kommunale helsetjenesten denne kontaktperson dekker."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/Volven-IPLOSiKPR-9151"/>
+      </reference>
+      <name value="Tjenestetype i helse- og omsorgstjenesten"/>
+      <description value="Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/Volven-IPLOSiKPR-7316"/>
+      </reference>
+      <name value="StatusNotifikasjon"/>
+      <description value="Benyttes for å angi status på innrapporterte hendelser"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/Volven-IPLOSiKPR-7371"/>
+      </reference>
+      <name value="Meldingstype"/>
+      <description value="Beskrivelse av hvordan melding skal behandles ved ankomst til NPR"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/Volven-IPLOSiKPR-8471"/>
+      </reference>
+      <name value="Kontaktperson type"/>
+      <description value="Benyttes for å angi status på innrapporterte hendelser"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/Volven-IPLOSiKPR-9151"/>
+      </reference>
+      <name value="Tjenestetype i helse- og omsorgstjenesten"/>
+      <description value="Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/KPRMiniMeldingTjenesteExample1"/>
+      </reference>
+      <name value="KPRMiniMeldingTjenesteExample1"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - payload midlertidigStoppTil"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/KPRminiMeldingMessageBundle2Example1"/>
+      </reference>
+      <name value="KPRminiMeldingMessageBundle2Example1"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notifikasjon bundle nivå 2"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/XPRPatientExample1"/>
+      </reference>
+      <name value="XPRPatientExample1"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/xpr-pasient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/XPRmunicipalityOrganizationExample1"/>
+      </reference>
+      <name value="XPRmunicipalityOrganizationExample1"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - organisasjonsdetaljer nivå 2"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/minimeldingMessageBundle1Example1"/>
+      </reference>
+      <name value="minimeldingMessageBundle1Example1"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - melding nivå 1"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MessageDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MessageDefinition/minimeldingMessageDefinitionExample1"/>
+      </reference>
+      <name value="minimeldingMessageDefinitionExample1"/>
+      <description value="Enkelt notifikasjon om "/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MessageHeader"/>
+      </extension>
+      <reference>
+        <reference value="MessageHeader/minimeldingMessageHeader2Example1"/>
+      </reference>
+      <name value="minimeldingMessageHeader2Example1"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MessageHeader"/>
+      </extension>
+      <reference>
+        <reference value="MessageHeader/minimeldingMessageHeaderExample1"/>
+      </reference>
+      <name value="minimeldingMessageHeaderExample1"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-common-header"/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

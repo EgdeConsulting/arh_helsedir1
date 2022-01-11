@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hddr.no/CodeSystem/Volven-IPLOSiKPR-9151> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Volven-IPLOSiKPR-9151"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-9151 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"Volven-IPLOSiKPR-9151-18\"> </a></td><td>Tidsbegrenset opphold - utredning/behandling</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"Volven-IPLOSiKPR-9151-19\"> </a></td><td>Tidsbegrenset opphold - habilitering/rehabilitering</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"Volven-IPLOSiKPR-9151-20\"> </a></td><td>Tidsbegrenset opphold - annet</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"Volven-IPLOSiKPR-9151-21\"> </a></td><td>Langtidsopphold i institusjon</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"Volven-IPLOSiKPR-9151-29\"> </a></td><td>Bolig som kommunen disponerer for helse- og omsorgsformål</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-9151"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "volven-IPLOSiKPR-9151"];
+  fhir:CodeSystem.title [ fhir:value "Tjenestetype i helse- og omsorgstjenesten"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-01-11T09:06:07+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.description [ fhir:value "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "18" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Tidsbegrenset opphold - utredning/behandling" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "19" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Tidsbegrenset opphold - habilitering/rehabilitering" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "20" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Tidsbegrenset opphold - annet" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "21" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Langtidsopphold i institusjon" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "29" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Bolig som kommunen disponerer for helse- og omsorgsformål" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hddr.no/CodeSystem/Volven-IPLOSiKPR-9151.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

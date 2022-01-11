@@ -1,0 +1,730 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hddr.no/ImplementationGuide/fhir.kprmm> a fhir:ImplementationGuide;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "fhir.kprmm"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>KPR_MM_IG</h2><p>The official URL for this implementation guide is: </p><pre>http://hddr.no//ImplementationGuide/fhir.kprmm</pre></div>"
+  ];
+  fhir:ImplementationGuide.url [ fhir:value "http://hddr.no//ImplementationGuide/fhir.kprmm"];
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
+  fhir:ImplementationGuide.name [ fhir:value "KPR_MM_IG"];
+  fhir:ImplementationGuide.status [ fhir:value "draft"];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-11T09:06:07+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.packageId [ fhir:value "fhir.kprmm"];
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
+  fhir:ImplementationGuide.fhirVersion [
+     fhir:value "4.0.1";
+     fhir:index 0
+  ];
+  fhir:ImplementationGuide.definition [
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "copyrightyear" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "2022+" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "releaselabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "ci-build" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-liquid" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template/liquid" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-liquid" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "input/liquid" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-qa" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/qa" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-temp" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/pages" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-output" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "output" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-suppressed-warnings" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "input/ignoreWarnings.txt" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-history" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "http://hddr.no//history.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-html" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-md" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page-md.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-contact" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-context" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-copyright" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-jurisdiction" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-license" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-publisher" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-version" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "active-tables" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ];
+     fhir:ImplementationGuide.definition.resource [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/kpr-mm-iplos-i-kpr-bundle1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/kpr-mm-iplos-i-kpr-bundle1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "KPR minimelding Melding" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Resource bundle for the mini-melding" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/kpr-mm-iplos-i-kpr-bundle2>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/kpr-mm-iplos-i-kpr-bundle2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "KPR minimelding Notifikasjon" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Resource bundle for the mini-melding notifikasjon" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/kpr-mm-iplos-i-kpr-common-header>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/kpr-mm-iplos-i-kpr-common-header" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Mini melding Message Header til nivå 1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "KPR minimelding Melding Message Header" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/kpr-mm-iplos-i-kpr-void-header>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/kpr-mm-iplos-i-kpr-void-header" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Mini melding Message Header til korriger annuller" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "KPR minimelding Melding KorrigerSuppler Header" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/kpr-mm-iplos-i-kpr-replace-header>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/kpr-mm-iplos-i-kpr-replace-header" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Mini melding Message Header til korriger erstatt" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "KPR minimelding Melding KorrigerErstatt Header" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/kpr-mm-iplos-i-kpr-submission-header>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/kpr-mm-iplos-i-kpr-submission-header" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Mini melding Message Header til original innrapportering" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "KPR minimelding Melding Submission Header" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/kpr-mm-iplos-i-kpr-supplement-header>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/kpr-mm-iplos-i-kpr-supplement-header" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Mini melding Message Header til korriger suppler" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "KPR minimelding Melding KorrigerSuppler Header" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste-org>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste-org" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "KPR minimelding utøvende organisasjon" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Organisasjonsnummer for organisasjon som utfører tjenesten" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Mini melding tjeneste payload" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "KPR minimelding tjeneste generisk" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/xpr-pasient>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/xpr-pasient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "XPR bruker/pasient" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bruker eller pasient" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/kpr-mm-iplos-i-kpr-kommune>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/kpr-mm-iplos-i-kpr-kommune" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "KPR minimelding Kommune" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Helse- og omsorgstjenester definert i helse og omsorgsloven" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/ValueSet/Volven-IPLOSiKPR-7371>;
+         fhir:Reference.reference [ fhir:value "ValueSet/Volven-IPLOSiKPR-7371" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Status notifikasjon" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angivelse av status på denne innrapoerterte notifikasjon" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/ValueSet/Volven-IPLOSiKPR-7316>;
+         fhir:Reference.reference [ fhir:value "ValueSet/Volven-IPLOSiKPR-7316" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Status notifikasjon" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angivelse av status på denne innrapoerterte notifikasjon" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/ValueSet/Volven-IPLOSiKPR-8471>;
+         fhir:Reference.reference [ fhir:value "ValueSet/Volven-IPLOSiKPR-8471" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Kontaktperson type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hvilken sektor innen Helseinstitusjon eller tjeneste innen den kommunale helsetjenesten denne kontaktperson dekker." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/ValueSet/Volven-IPLOSiKPR-9151>;
+         fhir:Reference.reference [ fhir:value "ValueSet/Volven-IPLOSiKPR-9151" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tjenestetype i helse- og omsorgstjenesten" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/CodeSystem/Volven-IPLOSiKPR-7316>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/Volven-IPLOSiKPR-7316" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "StatusNotifikasjon" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Benyttes for å angi status på innrapporterte hendelser" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/CodeSystem/Volven-IPLOSiKPR-7371>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/Volven-IPLOSiKPR-7371" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Meldingstype" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beskrivelse av hvordan melding skal behandles ved ankomst til NPR" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/CodeSystem/Volven-IPLOSiKPR-8471>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/Volven-IPLOSiKPR-8471" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Kontaktperson type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Benyttes for å angi status på innrapporterte hendelser" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/CodeSystem/Volven-IPLOSiKPR-9151>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/Volven-IPLOSiKPR-9151" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tjenestetype i helse- og omsorgstjenesten" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/Encounter/KPRMiniMeldingTjenesteExample1>;
+         fhir:Reference.reference [ fhir:value "Encounter/KPRMiniMeldingTjenesteExample1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "KPRMiniMeldingTjenesteExample1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - payload midlertidigStoppTil" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste";
+         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste>
+       ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Bundle" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/Bundle/KPRminiMeldingMessageBundle2Example1>;
+         fhir:Reference.reference [ fhir:value "Bundle/KPRminiMeldingMessageBundle2Example1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "KPRminiMeldingMessageBundle2Example1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notifikasjon bundle nivå 2" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2";
+         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2>
+       ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/Patient/XPRPatientExample1>;
+         fhir:Reference.reference [ fhir:value "Patient/XPRPatientExample1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "XPRPatientExample1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hddr.no//StructureDefinition/xpr-pasient";
+         fhir:link <http://hddr.no//StructureDefinition/xpr-pasient>
+       ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/Organization/XPRmunicipalityOrganizationExample1>;
+         fhir:Reference.reference [ fhir:value "Organization/XPRmunicipalityOrganizationExample1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "XPRmunicipalityOrganizationExample1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - organisasjonsdetaljer nivå 2" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune";
+         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune>
+       ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Bundle" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/Bundle/minimeldingMessageBundle1Example1>;
+         fhir:Reference.reference [ fhir:value "Bundle/minimeldingMessageBundle1Example1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "minimeldingMessageBundle1Example1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - melding nivå 1" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1";
+         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1>
+       ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MessageDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/MessageDefinition/minimeldingMessageDefinitionExample1>;
+         fhir:Reference.reference [ fhir:value "MessageDefinition/minimeldingMessageDefinitionExample1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "minimeldingMessageDefinitionExample1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om " ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MessageHeader" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/MessageHeader/minimeldingMessageHeader2Example1>;
+         fhir:Reference.reference [ fhir:value "MessageHeader/minimeldingMessageHeader2Example1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "minimeldingMessageHeader2Example1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header";
+         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header>
+       ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MessageHeader" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/MessageHeader/minimeldingMessageHeaderExample1>;
+         fhir:Reference.reference [ fhir:value "MessageHeader/minimeldingMessageHeaderExample1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "minimeldingMessageHeaderExample1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-common-header";
+         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-common-header>
+       ]
+     ];
+     fhir:ImplementationGuide.definition.page [
+       fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
+       fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ];
+       fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+     ];
+     fhir:ImplementationGuide.definition.parameter [
+       fhir:index 0;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/capabilities" ]
+     ], [
+       fhir:index 1;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/examples" ]
+     ], [
+       fhir:index 2;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/extensions" ]
+     ], [
+       fhir:index 3;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/models" ]
+     ], [
+       fhir:index 4;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/operations" ]
+     ], [
+       fhir:index 5;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/profiles" ]
+     ], [
+       fhir:index 6;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/resources" ]
+     ], [
+       fhir:index 7;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
+     ], [
+       fhir:index 8;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/maps" ]
+     ], [
+       fhir:index 9;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/testing" ]
+     ], [
+       fhir:index 10;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/history" ]
+     ], [
+       fhir:index 11;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "fsh-generated/resources" ]
+     ], [
+       fhir:index 12;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
+     ], [
+       fhir:index 13;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+     ], [
+       fhir:index 14;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hddr.no/ImplementationGuide/fhir.kprmm.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
