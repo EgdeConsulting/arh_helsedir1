@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "KPRMiniMeldingTjeneste"];
   fhir:StructureDefinition.title [ fhir:value "Mini melding tjeneste payload"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-01-13T14:20:49+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-01-13T14:41:53+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "KPR minimelding tjeneste generisk"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
