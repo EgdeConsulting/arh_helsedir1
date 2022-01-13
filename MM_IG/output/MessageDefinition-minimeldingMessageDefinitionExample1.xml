@@ -3,12 +3,19 @@
 <MessageDefinition xmlns="http://hl7.org/fhir">
   <id value="minimeldingMessageDefinitionExample1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "minimeldingMessageDefinitionExample1" </p></div><p><b>url</b>: <code>http://hddr.no/MessageDefinition/minimeldingMessageDefinitionExample1</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: active</p><p><b>date</b>: 2021-12-06T06:37:30.7379426Z</p><p><b>event</b>: admin-notify (Details: http://hddr.no/ code admin-notify = 'admin-notify', stated as 'null')</p><p><b>category</b>: notification</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "minimeldingMessageDefinitionExample1" </p></div><p><b>url</b>: <code>http://hddr.no/MessageDefinition/minimeldingMessageDefinitionExample1</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: active</p><p><b>date</b>: 2021-12-06T06:37:30.7379426Z</p><p><b>jurisdiction</b>: Norway <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#NO)</span></p><p><b>event</b>: admin-notify (Details: http://hddr.no/ code admin-notify = 'admin-notify', stated as 'null')</p><p><b>category</b>: notification</p></div>
   </text>
   <url value="http://hddr.no/MessageDefinition/minimeldingMessageDefinitionExample1"/>
   <version value="0.1.0"/>
   <status value="active"/>
   <date value="2021-12-06T06:37:30.7379426+00:00"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <eventCoding>
     <system value="http://hddr.no/"/>
     <code value="admin-notify"/>

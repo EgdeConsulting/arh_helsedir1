@@ -2,6 +2,7 @@
   "package": "fhir.kprmm",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
+  "jurisdiction": "NO",
   "extensions": [],
   "profiles": {
     "Bundle": [
@@ -54,6 +55,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"

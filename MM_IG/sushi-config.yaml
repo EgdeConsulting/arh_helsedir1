@@ -10,6 +10,8 @@ version: 0.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: ci-build
+FSHOnly: false
+jurisdiction: urn:iso:std:iso:3166#NO "Norway"
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │

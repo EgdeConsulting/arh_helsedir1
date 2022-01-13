@@ -26,8 +26,17 @@
   fhir:StructureDefinition.name [ fhir:value "KPRMiniMeldingMessageHeader"];
   fhir:StructureDefinition.title [ fhir:value "Mini melding Message Header til nivå 1"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-01-11T09:06:07+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-01-13T09:13:28+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "KPR minimelding Melding Message Header"];
+  fhir:StructureDefinition.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
      fhir:index 0;

@@ -9,7 +9,18 @@
   "version": "0.1.0",
   "name": "KPR_MM_IG",
   "status": "draft",
-  "date": "2022-01-11T09:06:07+01:00",
+  "date": "2022-01-13T09:13:28+01:00",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "packageId": "fhir.kprmm",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -648,7 +659,14 @@
     "page": {
       "nameUrl": "toc.html",
       "title": "Table of Contents",
-      "generation": "html"
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
     },
     "parameter": [
       {

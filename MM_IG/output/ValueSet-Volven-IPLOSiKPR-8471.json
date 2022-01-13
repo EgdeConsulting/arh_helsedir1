@@ -10,8 +10,19 @@
   "name": "KPRMMKontaktTypeVS",
   "title": "Kontaktperson type",
   "status": "active",
-  "date": "2022-01-11T09:06:07+01:00",
+  "date": "2022-01-13T09:13:28+01:00",
   "description": "Hvilken sektor innen Helseinstitusjon eller tjeneste innen den kommunale helsetjenesten denne kontaktperson dekker.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "compose": {
     "include": [
       {

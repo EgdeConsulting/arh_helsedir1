@@ -10,8 +10,15 @@
   <name value="KPRMM1eventCodingVS"/>
   <title value="Status notifikasjon"/>
   <status value="active"/>
-  <date value="2022-01-11T09:06:07+01:00"/>
+  <date value="2022-01-13T09:13:28+01:00"/>
   <description value="Angivelse av status på denne innrapoerterte notifikasjon"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <compose>
     <include>
       <system value="https://volven.no"/>

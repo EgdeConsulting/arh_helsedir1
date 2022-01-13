@@ -29,7 +29,7 @@ Instance: XPRmunicipalityOrganizationExample1
 InstanceOf: XPRmunicipalityOrganization
 Usage: #example
 Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - organisasjonsdetaljer nivå 2"
-* identifier.system = "Bydel" 
+* identifier.system = "urn:oid:2.16.578.1.12.4.1.1.3403"
 * identifier.value = "1857" //kommuneNr//
 * contact[0].name.text = "Sofie Haugen" //kontPerson//
 * contact[0].purpose = #16 //typeKontaktperson//
@@ -38,7 +38,7 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - organ
 * contact[0].telecom[1].system = #email
 * contact[0].telecom[1].value = "Karoline_Eide@gmail.com" //meldEpost1//
 * contact[0].telecom[2].system = #email
-* contact[0].telecom[2].value = "Emma.Stensrud50@yahoo.com" //meldEpost2//
+* contact[0].telecom[2].value = "Emma.Stensrud50@yahoo.co" //meldEpost2//
 * contact[1].name.text = "Lars Berge" //kontPerson//
 * contact[1].purpose = #17 //typeKontaktperson//
 * contact[1].telecom.value = "+47 78 91 29 29"  //meldTelefon// 

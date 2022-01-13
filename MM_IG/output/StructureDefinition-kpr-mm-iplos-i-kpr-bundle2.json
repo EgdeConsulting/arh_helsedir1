@@ -20,8 +20,19 @@
   "name": "KPRMiniMeldingBundle2",
   "title": "KPR minimelding Notifikasjon",
   "status": "draft",
-  "date": "2022-01-11T09:06:07+01:00",
+  "date": "2022-01-13T09:13:28+01:00",
   "description": "Resource bundle for the mini-melding notifikasjon",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "fhirVersion": "4.0.1",
   "mapping": [
     {

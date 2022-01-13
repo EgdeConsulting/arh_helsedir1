@@ -10,8 +10,15 @@
   <name value="volven-IPLOSiKPR-7371"/>
   <title value="Meldingstype"/>
   <status value="active"/>
-  <date value="2022-01-11T09:06:07+01:00"/>
+  <date value="2022-01-13T09:13:28+01:00"/>
   <description value="Beskrivelse av hvordan melding skal behandles ved ankomst til NPR"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
   <caseSensitive value="true"/>
   <content value="complete"/>
   <count value="1"/>

@@ -17,8 +17,17 @@
   fhir:ValueSet.name [ fhir:value "KPRMM2eventCodingVS"];
   fhir:ValueSet.title [ fhir:value "Status notifikasjon"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-01-11T09:06:07+01:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-01-13T09:13:28+01:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "Angivelse av status på denne innrapoerterte notifikasjon"];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;

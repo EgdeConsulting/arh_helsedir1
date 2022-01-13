@@ -20,8 +20,19 @@
   "name": "KPRMiniMeldingMessageHeader",
   "title": "Mini melding Message Header til nivå 1",
   "status": "active",
-  "date": "2022-01-11T09:06:07+01:00",
+  "date": "2022-01-13T09:13:28+01:00",
   "description": "KPR minimelding Melding Message Header",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
   "fhirVersion": "4.0.1",
   "mapping": [
     {
