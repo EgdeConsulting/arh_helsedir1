@@ -1,10 +1,10 @@
 ﻿KPR_MM_IG : Validation Results
 =========================================
 
-err = 29, warn = 39, info = 6
+err = 30, warn = 39, info = 6
 IG Publisher Version: 1.1.92 Out of date - current version is ?pub-ver-1?
-Generated Thu Jan 13 09:14:06 CET 2022. FHIR version 4.0.1 for fhir.kprmm#0.1.0 (canonical = http://hddr.no/)
- Build Errors : 177 / 0 / 0
+Generated Thu Jan 13 14:21:32 CET 2022. FHIR version 4.0.1 for fhir.kprmm#0.1.0 (canonical = http://hddr.no/)
+ Build Errors : 178 / 0 / 0
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/ImplementationGuide-fhir.kprmm : 1 / 1 / 1
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-KPRminiMeldingMessageBundle2Example1 : 5 / 1 / 3
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-minimeldingMessageBundle1Example1 : 6 / 1 / 3
@@ -210,7 +210,8 @@ ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/ValueSet-Volven-IPLOSiKPR-
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/ValueSet-Volven-IPLOSiKPR-9151.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/artifacts.html#/html/body/div/div/div/p/a at Line 453, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/index.html#/html/body/div/div/div/div/div/h1/a at Line 127, column 144: The link '/arh_helsedir1/' for "Return to top level" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/index.html#/html/body/div/div/div/p/a at Line 159, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/index.html#/html/body/div/div/div/div/div/p/img at Line 156, column 5: The image source '../assets/images/MinimeldingModel1.png' cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/index.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-fhir.kprmm.json ==
 ERROR: ImplementationGuide.where(url = 'http://hddr.no//ImplementationGuide/fhir.kprmm'): Conformance resource /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/ImplementationGuide-fhir.kprmm.json - the canonical URL (http://hddr.no/ImplementationGuide/fhir.kprmm) does not match the URL (http://hddr.no//ImplementationGuide/fhir.kprmm)

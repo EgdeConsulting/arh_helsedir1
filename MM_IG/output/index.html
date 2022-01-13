@@ -126,11 +126,42 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 <h1 id="mm_ig-minimelding-experimental-ig------------------return-to-top-level"><a name="l221">​</a>MM_IG Minimelding experimental IG   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     <a href="/arh_helsedir1/">Return to top level</a></h1>
 
-<p>Description to go here.</p>
+<p>This IG is an example of how the XPR minimelding can be modelled with FHIR Resources.
+The diagram below shows the data content from the original alongside an equivalent FHIR structure.</p>
 
-  <!-- img src="../../assets/images/Evjeklinikken-poster-A4.png" width="1100" -->
+<h1 id="notes-on-functional-strucucture">Notes on functional strucucture:</h1>
 
-<p>Checklist:</p>
+<h2 id="1-overall-structure">1. Overall structure</h2>
+<p>To model the levels of the xpr structure this version uses a top level FHIR Bundle resource of type “Message” to represent the “Melding”. In order to model one to many Notifications within the “Melding” we use a new Bundle of type “Message” under the Melding bundle. This Bundle is described using a MessageHeader MessageDefinition resources and provides ‘focus’ for 1 payload “Encounter” resource.</p>
+
+<h2 id="2-message-protocol-considerations">2. Message protocol considerations</h2>
+<p>XPR uses the statusNotifikasjon to determine if the message is an original or a correction. In this FHIR example we have used an Event in the Notifikasjon MessageHeader to target an endpoint URL.</p>
+
+<p>Example:</p>
+<ul>
+  <li>Kodeverk 7316 = N “Original” is sent to the receiving server EventUri = “http://hddr.no/iplosikpr_submission”</li>
+  <li>Kodeverk 7316 = M “KorrigerErstatt” to EventUri = “http://hddr.no/iplosikpr_replace”</li>
+</ul>
+
+<h2 id="3-notification-types">3. Notification types</h2>
+<p>XPR Minimelding has 5 types of notification which are defined within the Encounter resource using the standard FHIR status flags:</p>
+<ul>
+  <li>‘arrived’ = TjenesteStart;</li>
+  <li>‘onleave’ = Midlertidlig stopp fra;</li>
+  <li>‘planned’ = Midlertidlig stopp til</li>
+  <li>‘finished’ = Tjeneste Slutt</li>
+  <li>‘entered-in-error’ = Tjenesteutfører endret</li>
+</ul>
+
+<p><a name="l280">​</a><img src="../assets/images/MinimeldingModel1.png"/></p>
+
+<p>TODO Checklist:</p>
+<ol>
+  <li>Profiling needs improved slicing definitions</li>
+  <li>Work required to refer to no-basis profiles where possible</li>
+  <li>Add multi-notification example</li>
+  <li>Model a HST version</li>
+</ol>
 
 
 
@@ -155,8 +186,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l271">​</a>
-          IG &copy; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir.kprmm#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 13, 2022 09:13+0100">2022-01-13</span>
+        <p><a name="l338">​</a>
+          IG &copy; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir.kprmm#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 13, 2022 14:20+0100">2022-01-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
