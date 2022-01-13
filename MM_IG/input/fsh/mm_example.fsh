@@ -15,11 +15,11 @@ InstanceOf: KPRMiniMeldingMessageHeader
 Usage: #example
 Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1"
 * eventCoding = #K
-* destination.endpoint = "8139520"
-* source.name = "McGlynn - Schinner"
-* source.contact.value = "Johnston, Wilkinson and Kilback"
-* source.software = "4.8.4"
-* source.endpoint = "8139519"
+* destination.endpoint = "8139520" // toHerID //
+* source.name = "McGlynn - Schinner" // navnEPJ //
+* source.contact.value = "Johnston, Wilkinson and Kilback" // leverandør //
+* source.software = "4.8.4" // versjonEPJ //
+* source.endpoint = "8139519" //from HerID //
 * source.version = "5.2.1" // versjonUt //
 * sender.reference = "XPRmunicipalityOrganizationExample1" // references to org //
 * focus[0].reference = "KPRminiMeldingMessageBundle2Example1" // references to first notification bundle //

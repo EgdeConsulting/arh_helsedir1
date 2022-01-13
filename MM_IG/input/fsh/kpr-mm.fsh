@@ -191,4 +191,6 @@ Description: "Bruker eller pasient"
 * identifier[HNR].value ^definition = "The actual Hjelpenummer.\r\n\r\nThe portion of the identifier typically relevant to the user and which is unique within the context of the system."
 * identifier[HNR].assigner 1..
 * identifier[HNR].assigner ^definition = "Assigner is mandatory for localy assigne Hjelpenummer.\r\n\r\nOrganization that issued/manages the identifier."
-
+* address only NoBasisAddress
+* address ^short = "Norwegian address"
+* address ^definition = "http://hl7.no/fhir/StructureDefinition/no-basis-Address"

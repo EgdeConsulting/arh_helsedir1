@@ -3,6 +3,6 @@
 Description to go here.
 
 
-<!-- img src="../../assets/images/Evjeklinikken-poster-A4.png" width="1100" -->
+<img src="../assets/images/MinimeldingModel1.png">
 
 Checklist:
