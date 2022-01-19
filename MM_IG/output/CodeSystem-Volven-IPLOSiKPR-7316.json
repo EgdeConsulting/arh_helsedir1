@@ -7,10 +7,10 @@
   },
   "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7316",
   "version": "0.1.0",
-  "name": "volven-IPLOSiKPR-7316",
+  "name": "VolvenIPLOSiKPR7316",
   "title": "StatusNotifikasjon",
   "status": "active",
-  "date": "2022-01-13T14:41:53+01:00",
+  "date": "2022-01-19T13:36:35+01:00",
   "description": "Benyttes for å angi status på innrapporterte hendelser",
   "jurisdiction": [
     {

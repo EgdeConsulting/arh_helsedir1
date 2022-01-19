@@ -111,4 +111,5 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638"
 * identifier[=].value = "3397091298" //fid//
 * identifier[+].system = "urn:oid:2.16.578.1.12.4.1.4.1" // Fixed value (code for norwegian person identifier "fødselsnummer")
 * identifier[=].value = "unspecified" //brukerNr//
-// TODO * address.extension.UrbanDistrict = "   7"  bydel //
+* address.district.extension.url = "http://hl7.no/fhir/StructureDefinition/no-basis-bydelsnummer" 
+* address.district.extension.valueCoding = urn:oid:2.16.578.1.12.4.1.1.3403#7   // bydel //

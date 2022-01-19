@@ -14,10 +14,10 @@
   ];
   fhir:CodeSystem.url [ fhir:value "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7371"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
-  fhir:CodeSystem.name [ fhir:value "volven-IPLOSiKPR-7371"];
+  fhir:CodeSystem.name [ fhir:value "VolvenIPLOSiKPR7371"];
   fhir:CodeSystem.title [ fhir:value "Meldingstype"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-01-13T14:41:53+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-01-19T13:36:35+01:00"^^xsd:dateTime];
   fhir:CodeSystem.description [ fhir:value "Beskrivelse av hvordan melding skal behandles ved ankomst til NPR"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;

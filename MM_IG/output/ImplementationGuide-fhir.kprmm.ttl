@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "KPR_MM_IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-01-13T14:41:53+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-19T13:36:35+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -421,6 +421,20 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/StructureDefinition/no-basis-urban-district>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/no-basis-urban-district" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-urban-district" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -431,7 +445,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angivelse av status på denne innrapoerterte notifikasjon" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -445,7 +459,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angivelse av status på denne innrapoerterte notifikasjon" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 13;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -459,7 +473,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hvilken sektor innen Helseinstitusjon eller tjeneste innen den kommunale helsetjenesten denne kontaktperson dekker." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 14;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -473,7 +487,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 15;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -487,7 +501,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Benyttes for å angi status på innrapporterte hendelser" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 16;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -501,7 +515,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beskrivelse av hvordan melding skal behandles ved ankomst til NPR" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 17;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -515,7 +529,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Benyttes for å angi status på innrapporterte hendelser" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 18;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -529,7 +543,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 19;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -546,7 +560,7 @@
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste>
        ]
      ], [
-       fhir:index 20;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -563,7 +577,7 @@
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2>
        ]
      ], [
-       fhir:index 21;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -580,7 +594,7 @@
          fhir:link <http://hddr.no//StructureDefinition/xpr-pasient>
        ]
      ], [
-       fhir:index 22;
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -597,7 +611,7 @@
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune>
        ]
      ], [
-       fhir:index 23;
+       fhir:index 24;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -614,7 +628,7 @@
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1>
        ]
      ], [
-       fhir:index 24;
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -628,7 +642,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om " ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 25;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -645,7 +659,7 @@
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header>
        ]
      ], [
-       fhir:index 26;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

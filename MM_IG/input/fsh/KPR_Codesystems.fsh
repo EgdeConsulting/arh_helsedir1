@@ -1,4 +1,4 @@
-CodeSystem: volven-IPLOSiKPR-7371
+CodeSystem: VolvenIPLOSiKPR7371
 Id: Volven-IPLOSiKPR-7371
 Title: "Meldingstype"
 Description: "Beskrivelse av hvordan melding skal behandles ved ankomst til NPR"
@@ -7,7 +7,7 @@ Description: "Beskrivelse av hvordan melding skal behandles ved ankomst til NPR"
 // * #B "Satsvis melding" //
 // * #E "RejectEndringsmelding" //
 
-CodeSystem: volven-IPLOSiKPR-7316
+CodeSystem: VolvenIPLOSiKPR7316
 Id: Volven-IPLOSiKPR-7316
 Title: "StatusNotifikasjon"
 Description: "Benyttes for å angi status på innrapporterte hendelser"
@@ -17,14 +17,14 @@ Description: "Benyttes for å angi status på innrapporterte hendelser"
 * #T "KorrigerSuppler" "Korrigering av original hendelse med tilleggsinformasjon"
 * #C "KorrigerAnnuller" "Annullering av original hendelse"
 
-CodeSystem: volven-IPLOSiKPR-8471
+CodeSystem: VolvenIPLOSiKPR8471
 Id: Volven-IPLOSiKPR-8471
 Title: "Kontaktperson type"
 Description: "Benyttes for å angi status på innrapporterte hendelser"
 * #1 "Teknisk produksjon"
 * #15 "EPJ-leverandør, meldingsvalidering"
 
-CodeSystem: volven-IPLOSiKPR-9151
+CodeSystem: VolvenIPLOSiKPR9151
 Id: Volven-IPLOSiKPR-9151
 Title: "Tjenestetype i helse- og omsorgstjenesten"
 Description: "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding"

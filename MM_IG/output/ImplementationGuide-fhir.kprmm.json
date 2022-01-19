@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "KPR_MM_IG",
   "status": "draft",
-  "date": "2022-01-13T14:41:53+01:00",
+  "date": "2022-01-19T13:36:35+01:00",
   "jurisdiction": [
     {
       "coding": [
@@ -429,6 +429,20 @@
         },
         "name": "KPR minimelding Kommune",
         "description": "Helse- og omsorgstjenester definert i helse og omsorgsloven",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/no-basis-urban-district"
+        },
+        "name": "no-basis-urban-district",
+        "description": "Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose.",
         "exampleBoolean": false
       },
       {

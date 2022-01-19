@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="KPR_MM_IG"/>
   <status value="draft"/>
-  <date value="2022-01-13T14:41:53+01:00"/>
+  <date value="2022-01-19T13:36:35+01:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -292,6 +292,17 @@
       </reference>
       <name value="KPR minimelding Kommune"/>
       <description value="Helse- og omsorgstjenester definert i helse og omsorgsloven"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/no-basis-urban-district"/>
+      </reference>
+      <name value="no-basis-urban-district"/>
+      <description value="Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

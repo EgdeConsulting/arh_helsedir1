@@ -7,10 +7,10 @@
   },
   "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-9151",
   "version": "0.1.0",
-  "name": "volven-IPLOSiKPR-9151",
+  "name": "VolvenIPLOSiKPR9151",
   "title": "Tjenestetype i helse- og omsorgstjenesten",
   "status": "active",
-  "date": "2022-01-13T14:41:53+01:00",
+  "date": "2022-01-19T13:36:35+01:00",
   "description": "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding",
   "jurisdiction": [
     {

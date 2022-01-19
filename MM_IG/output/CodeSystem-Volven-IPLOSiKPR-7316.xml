@@ -7,10 +7,10 @@
   </text>
   <url value="http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7316"/>
   <version value="0.1.0"/>
-  <name value="volven-IPLOSiKPR-7316"/>
+  <name value="VolvenIPLOSiKPR7316"/>
   <title value="StatusNotifikasjon"/>
   <status value="active"/>
-  <date value="2022-01-13T14:41:53+01:00"/>
+  <date value="2022-01-19T13:36:35+01:00"/>
   <description value="Benyttes for å angi status på innrapporterte hendelser"/>
   <jurisdiction>
     <coding>

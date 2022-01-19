@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"XPRPatientExample1\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-xpr-pasient.html\">XPR bruker/pasient</a></p></div><p><b>identifier</b>: id: 538bad1b-6bb8-ec67-8f4e-27d4f430c087, id: 3397091298, id: unspecified</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"XPRPatientExample1\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-xpr-pasient.html\">XPR bruker/pasient</a></p></div><p><b>identifier</b>: id: 538bad1b-6bb8-ec67-8f4e-27d4f430c087, id: 3397091298, id: unspecified</p><p><b>address</b>: </p></div>"
   ];
   fhir:Patient.identifier [
      fhir:index 0;
@@ -31,6 +31,19 @@
      fhir:index 2;
      fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.1" ];
      fhir:Identifier.value [ fhir:value "unspecified" ]
+  ];
+  fhir:Patient.address [
+     fhir:index 0;
+     fhir:Address.district [
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/no-basis-bydelsnummer" ];
+         fhir:Extension.valueCoding [
+           fhir:Coding.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.3403" ];
+           fhir:Coding.code [ fhir:value "7" ]
+         ]
+       ]
+     ]
   ] .
 
 # - ontology header ------------------------------------------------------------

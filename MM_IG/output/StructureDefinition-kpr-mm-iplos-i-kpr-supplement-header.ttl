@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "KPRMiniMeldingMessageHeaderSuppler"];
   fhir:StructureDefinition.title [ fhir:value "Mini melding Message Header til korriger suppler"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-01-13T14:41:53+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-01-19T13:36:35+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "KPR minimelding Melding KorrigerSuppler Header"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;

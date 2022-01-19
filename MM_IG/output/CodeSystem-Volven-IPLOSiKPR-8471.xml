@@ -7,10 +7,10 @@
   </text>
   <url value="http://hddr.no//CodeSystem/Volven-IPLOSiKPR-8471"/>
   <version value="0.1.0"/>
-  <name value="volven-IPLOSiKPR-8471"/>
+  <name value="VolvenIPLOSiKPR8471"/>
   <title value="Kontaktperson type"/>
   <status value="active"/>
-  <date value="2022-01-13T14:41:53+01:00"/>
+  <date value="2022-01-19T13:36:35+01:00"/>
   <description value="Benyttes for å angi status på innrapporterte hendelser"/>
   <jurisdiction>
     <coding>

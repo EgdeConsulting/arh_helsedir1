@@ -3,7 +3,15 @@
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "http://hddr.no//StructureDefinition/no-basis-urban-district",
+      "title": "no-basis-urban-district",
+      "types": [
+        "Coding"
+      ]
+    }
+  ],
   "profiles": {
     "Bundle": [
       {
@@ -41,6 +49,9 @@
     ]
   },
   "usage": {
+    "http://hl7.no/fhir/StructureDefinition/no-basis-bydelsnummer": [
+      "Patient.address.district"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
