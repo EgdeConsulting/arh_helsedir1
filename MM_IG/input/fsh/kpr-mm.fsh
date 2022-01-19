@@ -33,7 +33,7 @@ Parent:  Organization // https://fhir.simplifier.net/HL7Norwayno-basis/Structure
 Id: kpr-mm-iplos-i-kpr-kommune
 Title: "KPR minimelding Kommune"
 Description: "Helse- og omsorgstjenester definert i helse og omsorgsloven"
-// TODO switch this to no-basis-bydelsnummer standard naming system urn:oid:2.16.578.1.12.4.1.1.3403 //
+// TODO switch this to no-basis standard naming system urn:oid:2.16.578.1.12.4.1.1.3403 //
 * identifier 1..1 //kommuneNr//
 // TODO Contact slicing //
 * contact.name 0..1 //kontPerson//
@@ -116,28 +116,26 @@ Title:  "Mini melding tjeneste payload"
 
 // org //
 Profile: KPRMiniMeldingServiceOrganization
+
 Parent:  Organization // https://fhir.simplifier.net/HL7Norwayno-basis/StructureDefinition/no-basis-Organization //http://hl7.no/fhir/StructureDefinition/no-basis-Organization//
 Id: kpr-mm-iplos-i-kpr-tjeneste-org
 Title: "KPR minimelding utøvende organisasjon"
 Description: "Organisasjonsnummer for organisasjon som utfører tjenesten"
 * identifier 1..1 //kommuneNr//
 
-// patient/user //
+// patient/user - probably not needed - IG can use example instance //
 Profile: XPRPatient
 Parent:  Patient // https://fhir.simplifier.net/HL7Norwayno-basis/StructureDefinition/no-basis-Patient //http://hl7.no/fhir/StructureDefinition/no-basis-Patient//
 Id: xpr-pasient
 Title: "XPR bruker/pasient" //potentially XPR rather than IPLOS KPR?//
 Description: "Bruker eller pasient"
-/* identifiers are sliced to provide
-* identifier[0] 1..1 //brukerNr//
-* identifier[0].system 1..1 //??//
-* identifier[1] 1..1 //fid//
-* identifier[1].system 1..1 //typeID FNR etc. Volven 9032//
-* identifier[2] 0..1 //pasientGUID//
-* identifier[2].system = #EPJ //???//
-* address.no-basis-Address.extension.urbanDistrict from TODO volven 3403
+/* 
+identifiers are sliced to provide
+brukerNr, fid, FNR etc. Volven 9032 
+additional id needed for pasientGUID from EPJ
+This slicing copied from no-basis-patient but should be changed to reference the real version
+This is missing inclusion of SE, DK numbers - what about the TIN tax id?//
 */
-// This slicing copied from no-basis-patient but this is missing inclusion of SE, DK numbers - what about the TIN tax id?//
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
@@ -191,6 +189,7 @@ Description: "Bruker eller pasient"
 * identifier[HNR].value ^definition = "The actual Hjelpenummer.\r\n\r\nThe portion of the identifier typically relevant to the user and which is unique within the context of the system."
 * identifier[HNR].assigner 1..
 * identifier[HNR].assigner ^definition = "Assigner is mandatory for localy assigne Hjelpenummer.\r\n\r\nOrganization that issued/manages the identifier."
-/*  address only NoBasisAddress
-* address ^short = "Norwegian address"
-* address ^definition = "http://hl7.no/fhir/StructureDefinition/no-basis-Address" */
+/* bydel is added in the example from the no-basis extension:
+* address.district.extension.url = "http://hl7.no/fhir/StructureDefinition/no-basis-bydelsnummer" 
+* address.district.extension.valueCoding = urn:oid:2.16.578.1.12.4.1.1.3403#7   // bydel //
+*/
