@@ -1,6 +1,7 @@
 # MM_IG Minimelding experimental IG   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     [Return to top level](/arh_helsedir1/)
 
-This IG is an example of how the XPR minimelding can be modelled with FHIR Resources.
+This IG is an example of how the XPR minimelding can be modelled with FHIR Resources. The specification can be found here: https://github.com/hdir/DHHR.API/blob/master/message-specifications/iplos-56.0.0/XPR(ipl).xsd
+
 The diagram below shows the data content from the original alongside an equivalent FHIR structure.
 
 # Notes on functional strucucture:
