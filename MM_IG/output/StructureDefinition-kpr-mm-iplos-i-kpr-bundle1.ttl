@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "KPRMiniMeldingBundle1"];
   fhir:StructureDefinition.title [ fhir:value "KPR minimelding Melding"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2022-01-21T11:54:03+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-01-21T15:01:37+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Resource bundle for the mini-melding"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;

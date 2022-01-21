@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "KPRMMtjenesteTypeVS"];
   fhir:ValueSet.title [ fhir:value "Tjenestetype i helse- og omsorgstjenesten"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-01-21T11:54:03+01:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-01-21T15:01:37+01:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding"];
   fhir:ValueSet.jurisdiction [
      fhir:index 0;

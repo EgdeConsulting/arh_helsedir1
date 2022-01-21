@@ -15,7 +15,7 @@ Description:   "KPR minimelding Melding Message Header"
 Id: kpr-mm-iplos-i-kpr-common-header
 Title:  "Mini melding Message Header til nivå 1"
 //* eventUri = http://hddr.no/iplosikpr_felles (exactly) //
-* eventCoding = #K
+* eventCoding from  KPRMM1eventCodingVS //= #K
 * destination MS //toHerID//
 * source.name MS //navnEPJ//
 * source.contact.value MS //leverandor//

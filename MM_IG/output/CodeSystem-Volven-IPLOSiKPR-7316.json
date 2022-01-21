@@ -3,14 +3,14 @@
   "id": "Volven-IPLOSiKPR-7316",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7316 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"Volven-IPLOSiKPR-7316-N\"> </a></td><td>Original</td><td>Ny hendelse</td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"Volven-IPLOSiKPR-7316-M\"> </a></td><td>KorrigerErstatt</td><td>Korrigering av original hendelse med ny informasjon som erstatter tilsvarende original informasjon</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"Volven-IPLOSiKPR-7316-T\"> </a></td><td>KorrigerSuppler</td><td>Korrigering av original hendelse med tilleggsinformasjon</td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"Volven-IPLOSiKPR-7316-C\"> </a></td><td>KorrigerAnnuller</td><td>Annullering av original hendelse</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7316 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
   },
   "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7316",
   "version": "0.1.0",
   "name": "VolvenIPLOSiKPR7316",
   "title": "StatusNotifikasjon",
   "status": "active",
-  "date": "2022-01-21T11:54:03+01:00",
+  "date": "2022-01-21T15:01:37+01:00",
   "description": "Benyttes for å angi status på innrapporterte hendelser",
   "jurisdiction": [
     {
@@ -24,28 +24,5 @@
     }
   ],
   "caseSensitive": true,
-  "content": "complete",
-  "count": 4,
-  "concept": [
-    {
-      "code": "N",
-      "display": "Original",
-      "definition": "Ny hendelse"
-    },
-    {
-      "code": "M",
-      "display": "KorrigerErstatt",
-      "definition": "Korrigering av original hendelse med ny informasjon som erstatter tilsvarende original informasjon"
-    },
-    {
-      "code": "T",
-      "display": "KorrigerSuppler",
-      "definition": "Korrigering av original hendelse med tilleggsinformasjon"
-    },
-    {
-      "code": "C",
-      "display": "KorrigerAnnuller",
-      "definition": "Annullering av original hendelse"
-    }
-  ]
+  "content": "complete"
 }

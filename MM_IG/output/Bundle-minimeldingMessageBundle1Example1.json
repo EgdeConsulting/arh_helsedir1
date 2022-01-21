@@ -24,7 +24,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"minimeldingMessageHeaderExample1\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-kpr-mm-iplos-i-kpr-common-header.html\">Mini melding Message Header til nivå 1</a></p></div><p><b>event</b>: K (Details: [not stated] code K = 'K', stated as 'null')</p><h3>Destinations</h3><table class=\"grid\"><tr><td>-</td><td><b>Endpoint</b></td></tr><tr><td>*</td><td><code>8139520</code></td></tr></table><p><b>sender</b>: <a href=\"XPRmunicipalityOrganizationExample1\">XPRmunicipalityOrganizationExample1</a></p><h3>Sources</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Software</b></td><td><b>Version</b></td><td><b>Contact</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>McGlynn - Schinner</td><td>4.8.4</td><td>5.2.1</td><td>Johnston, Wilkinson and Kilback</td><td><code>8139519</code></td></tr></table><p><b>focus</b>: <a href=\"KPRminiMeldingMessageBundle2Example1\">KPRminiMeldingMessageBundle2Example1</a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"minimeldingMessageHeaderExample1\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-kpr-mm-iplos-i-kpr-common-header.html\">Mini melding Message Header til nivå 1</a></p></div><p><b>event</b>: K (Details: [not stated] code K = 'K', stated as 'null')</p><h3>Destinations</h3><table class=\"grid\"><tr><td>-</td><td><b>Endpoint</b></td></tr><tr><td>*</td><td><code>8139520</code></td></tr></table><p><b>sender</b>: <a href=\"XPRmunicipalityOrganizationExample1\">XPRmunicipalityOrganizationExample1</a></p><h3>Sources</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Software</b></td><td><b>Version</b></td><td><b>Contact</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>McGlynn - Schinner</td><td>4.8.4</td><td>5.2.1</td><td>Johnston, Wilkinson and Kilback</td><td><code>8139519</code></td></tr></table><p><b>focus</b>: <a href=\"Bundle-KPRminiMeldingMessageBundle2Example1.html\">Bundle/KPRminiMeldingMessageBundle2Example1</a></p></div>"
         },
         "eventCoding": {
           "code": "K"
@@ -48,7 +48,7 @@
         },
         "focus": [
           {
-            "reference": "KPRminiMeldingMessageBundle2Example1"
+            "reference": "Bundle/KPRminiMeldingMessageBundle2Example1"
           }
         ]
       }

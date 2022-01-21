@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "Volven-IPLOSiKPR-8471"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-8471 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"Volven-IPLOSiKPR-8471-1\"> </a></td><td>Teknisk produksjon</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"Volven-IPLOSiKPR-8471-15\"> </a></td><td>EPJ-leverandør, meldingsvalidering</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-8471 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-8471"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "VolvenIPLOSiKPR8471"];
   fhir:CodeSystem.title [ fhir:value "Kontaktperson type"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-01-21T11:54:03+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-01-21T15:01:37+01:00"^^xsd:dateTime];
   fhir:CodeSystem.description [ fhir:value "Benyttes for å angi status på innrapporterte hendelser"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;
@@ -28,17 +28,7 @@
        fhir:Coding.display [ fhir:value "Norway" ]
      ]
   ];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger];
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "1" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Teknisk produksjon" ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "15" ];
-     fhir:CodeSystem.concept.display [ fhir:value "EPJ-leverandør, meldingsvalidering" ]
-  ] .
+  fhir:CodeSystem.content [ fhir:value "complete"] .
 
 # - ontology header ------------------------------------------------------------
 

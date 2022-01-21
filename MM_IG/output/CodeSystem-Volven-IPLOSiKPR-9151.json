@@ -3,14 +3,14 @@
   "id": "Volven-IPLOSiKPR-9151",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-9151 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"Volven-IPLOSiKPR-9151-18\"> </a></td><td>Tidsbegrenset opphold - utredning/behandling</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"Volven-IPLOSiKPR-9151-19\"> </a></td><td>Tidsbegrenset opphold - habilitering/rehabilitering</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"Volven-IPLOSiKPR-9151-20\"> </a></td><td>Tidsbegrenset opphold - annet</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"Volven-IPLOSiKPR-9151-21\"> </a></td><td>Langtidsopphold i institusjon</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"Volven-IPLOSiKPR-9151-29\"> </a></td><td>Bolig som kommunen disponerer for helse- og omsorgsformål</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-9151 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
   },
   "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-9151",
   "version": "0.1.0",
   "name": "VolvenIPLOSiKPR9151",
   "title": "Tjenestetype i helse- og omsorgstjenesten",
   "status": "active",
-  "date": "2022-01-21T11:54:03+01:00",
+  "date": "2022-01-21T15:01:37+01:00",
   "description": "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding",
   "jurisdiction": [
     {
@@ -23,28 +23,5 @@
       ]
     }
   ],
-  "content": "complete",
-  "count": 5,
-  "concept": [
-    {
-      "code": "18",
-      "display": "Tidsbegrenset opphold - utredning/behandling"
-    },
-    {
-      "code": "19",
-      "display": "Tidsbegrenset opphold - habilitering/rehabilitering"
-    },
-    {
-      "code": "20",
-      "display": "Tidsbegrenset opphold - annet"
-    },
-    {
-      "code": "21",
-      "display": "Langtidsopphold i institusjon"
-    },
-    {
-      "code": "29",
-      "display": "Bolig som kommunen disponerer for helse- og omsorgsformål"
-    }
-  ]
+  "content": "complete"
 }

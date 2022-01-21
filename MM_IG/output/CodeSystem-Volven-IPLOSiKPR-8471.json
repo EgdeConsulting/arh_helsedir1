@@ -3,14 +3,14 @@
   "id": "Volven-IPLOSiKPR-8471",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-8471 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"Volven-IPLOSiKPR-8471-1\"> </a></td><td>Teknisk produksjon</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"Volven-IPLOSiKPR-8471-15\"> </a></td><td>EPJ-leverandør, meldingsvalidering</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-8471 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
   },
   "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-8471",
   "version": "0.1.0",
   "name": "VolvenIPLOSiKPR8471",
   "title": "Kontaktperson type",
   "status": "active",
-  "date": "2022-01-21T11:54:03+01:00",
+  "date": "2022-01-21T15:01:37+01:00",
   "description": "Benyttes for å angi status på innrapporterte hendelser",
   "jurisdiction": [
     {
@@ -23,16 +23,5 @@
       ]
     }
   ],
-  "content": "complete",
-  "count": 2,
-  "concept": [
-    {
-      "code": "1",
-      "display": "Teknisk produksjon"
-    },
-    {
-      "code": "15",
-      "display": "EPJ-leverandør, meldingsvalidering"
-    }
-  ]
+  "content": "complete"
 }

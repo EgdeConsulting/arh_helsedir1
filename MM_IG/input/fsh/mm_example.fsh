@@ -22,7 +22,7 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding
 * source.endpoint = "8139519" //from HerID //
 * source.version = "5.2.1" // versjonUt //
 * sender.reference = "XPRmunicipalityOrganizationExample1" // references to org //
-* focus[0].reference = "KPRminiMeldingMessageBundle2Example1" // references to first notification bundle //
+* focus = Reference(KPRminiMeldingMessageBundle2Example1) // references to first notification bundle //
 
 // org/kommmune and contact details //
 Instance: XPRmunicipalityOrganizationExample1
@@ -72,7 +72,7 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding
 * eventCoding = #N
 * eventUri = "http://hddr.no/iplosikpr_submission"
 * definition = "minimeldingMessageDefinitionExample1"
-* focus[0].reference = "KPRMiniMeldingTjenesteExample1" // references to Encounter for this notification //
+* focus = Reference(KPRMiniMeldingTjenesteExample1) // references to Encounter for this notification //
 
 Instance: minimeldingMessageDefinitionExample1
 InstanceOf: MessageDefinition

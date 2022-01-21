@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "Volven-IPLOSiKPR-7371"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7371 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">K<a name=\"Volven-IPLOSiKPR-7371-K\"> </a></td><td>Melding for kontinuerlige oppdateringe</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7371 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7371"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "VolvenIPLOSiKPR7371"];
   fhir:CodeSystem.title [ fhir:value "Meldingstype"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-01-21T11:54:03+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-01-21T15:01:37+01:00"^^xsd:dateTime];
   fhir:CodeSystem.description [ fhir:value "Beskrivelse av hvordan melding skal behandles ved ankomst til NPR"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;
@@ -29,13 +29,7 @@
      ]
   ];
   fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "1"^^xsd:nonNegativeInteger];
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "K" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Melding for kontinuerlige oppdateringe" ]
-  ] .
+  fhir:CodeSystem.content [ fhir:value "complete"] .
 
 # - ontology header ------------------------------------------------------------
 

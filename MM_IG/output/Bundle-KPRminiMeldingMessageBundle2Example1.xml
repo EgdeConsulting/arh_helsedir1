@@ -27,7 +27,7 @@
           <profile value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "minimeldingMessageHeader2Example1" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-kpr-mm-iplos-i-kpr-submission-header.html">Mini melding Message Header til original innrapportering</a></p></div><p><b>event</b>: N (Details: [not stated] code N = 'N', stated as 'null')</p><h3>Sources</h3><table class="grid"><tr><td>-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>Johnston, Wilkinson and Kilback</td><td><code>8139519</code></td></tr></table><p><b>focus</b>: <a href="KPRMiniMeldingTjenesteExample1">KPRMiniMeldingTjenesteExample1</a></p><p><b>definition</b>: <code>minimeldingMessageDefinitionExample1</code></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "minimeldingMessageHeader2Example1" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-kpr-mm-iplos-i-kpr-submission-header.html">Mini melding Message Header til original innrapportering</a></p></div><p><b>event</b>: N (Details: [not stated] code N = 'N', stated as 'null')</p><h3>Sources</h3><table class="grid"><tr><td>-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>Johnston, Wilkinson and Kilback</td><td><code>8139519</code></td></tr></table><p><b>focus</b>: <a href="Encounter-KPRMiniMeldingTjenesteExample1.html">Encounter/KPRMiniMeldingTjenesteExample1</a></p><p><b>definition</b>: <code>minimeldingMessageDefinitionExample1</code></p></div>
         </text>
         <eventCoding>
           <code value="N"/>
@@ -37,7 +37,7 @@
           <endpoint value="8139519"/>
         </source>
         <focus>
-          <reference value="KPRMiniMeldingTjenesteExample1"/>
+          <reference value="Encounter/KPRMiniMeldingTjenesteExample1"/>
         </focus>
         <definition value="minimeldingMessageDefinitionExample1"/>
       </MessageHeader>

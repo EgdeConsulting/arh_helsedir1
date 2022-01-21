@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="Volven-IPLOSiKPR-9151"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-9151 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">18<a name="Volven-IPLOSiKPR-9151-18"> </a></td><td>Tidsbegrenset opphold - utredning/behandling</td></tr><tr><td style="white-space:nowrap">19<a name="Volven-IPLOSiKPR-9151-19"> </a></td><td>Tidsbegrenset opphold - habilitering/rehabilitering</td></tr><tr><td style="white-space:nowrap">20<a name="Volven-IPLOSiKPR-9151-20"> </a></td><td>Tidsbegrenset opphold - annet</td></tr><tr><td style="white-space:nowrap">21<a name="Volven-IPLOSiKPR-9151-21"> </a></td><td>Langtidsopphold i institusjon</td></tr><tr><td style="white-space:nowrap">29<a name="Volven-IPLOSiKPR-9151-29"> </a></td><td>Bolig som kommunen disponerer for helse- og omsorgsformål</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hddr.no//CodeSystem/Volven-IPLOSiKPR-9151 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr></table></div>
   </text>
   <url value="http://hddr.no//CodeSystem/Volven-IPLOSiKPR-9151"/>
   <version value="0.1.0"/>
   <name value="VolvenIPLOSiKPR9151"/>
   <title value="Tjenestetype i helse- og omsorgstjenesten"/>
   <status value="active"/>
-  <date value="2022-01-21T11:54:03+01:00"/>
+  <date value="2022-01-21T15:01:37+01:00"/>
   <description value="Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding"/>
   <jurisdiction>
     <coding>
@@ -20,25 +20,4 @@
     </coding>
   </jurisdiction>
   <content value="complete"/>
-  <count value="5"/>
-  <concept>
-    <code value="18"/>
-    <display value="Tidsbegrenset opphold - utredning/behandling"/>
-  </concept>
-  <concept>
-    <code value="19"/>
-    <display value="Tidsbegrenset opphold - habilitering/rehabilitering"/>
-  </concept>
-  <concept>
-    <code value="20"/>
-    <display value="Tidsbegrenset opphold - annet"/>
-  </concept>
-  <concept>
-    <code value="21"/>
-    <display value="Langtidsopphold i institusjon"/>
-  </concept>
-  <concept>
-    <code value="29"/>
-    <display value="Bolig som kommunen disponerer for helse- og omsorgsformål"/>
-  </concept>
 </CodeSystem>
