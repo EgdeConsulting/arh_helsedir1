@@ -7,16 +7,7 @@ Id: kpr-mm-iplos-i-kpr-bundle1
 Title: "KPR minimelding Melding"
 Description: "Resource bundle for the mini-melding"
 * ^status = #draft
-* identifier 1..1 // meldingGUID //
-/* see example instance for these details:
-* destination 1..1 //to be defined//
-* source.name 1..1 //navnEPJ//
-* source.contact.value 1..1 //leverandor//
-* source.software 1..1  //versjonEPJ//
-* source.version 1..1 //versjonUt//
-* source.endpoint 1..1 //to be defined//
-* destination.name 1..1 //versjonUt since this is a string - simpler than referring to a Device//
-*/
+* identifier MS // meldingGUID //
 
 Profile:  KPRMiniMeldingMessageHeader
 Parent: MessageHeader
@@ -25,6 +16,12 @@ Id: kpr-mm-iplos-i-kpr-common-header
 Title:  "Mini melding Message Header til nivå 1"
 //* eventUri = http://hddr.no/iplosikpr_felles (exactly) //
 * eventCoding = #K
+* destination MS //toHerID//
+* source.name MS //navnEPJ//
+* source.contact.value MS //leverandor//
+* source.software MS  //versjonEPJ//
+* source.version MS //versjonUt//
+* source.endpoint MS //fromHerID//
 * focus only Reference(Bundle) // KPRMiniMeldingBundle2 //
 * sender only Reference(Organization) // KPRmunicipalityOrganization //
 
@@ -34,7 +31,7 @@ Id: kpr-mm-iplos-i-kpr-kommune
 Title: "KPR minimelding Kommune"
 Description: "Helse- og omsorgstjenester definert i helse og omsorgsloven"
 // TODO switch this to no-basis standard naming system urn:oid:2.16.578.1.12.4.1.1.3403 //
-* identifier 1..1 //kommuneNr//
+* identifier MS //kommuneNr//
 // TODO Contact slicing //
 * contact.name 0..1 //kontPerson//
 * contact.purpose from KPRMMKontaktTypeVS //typeKontaktperson//
@@ -46,7 +43,7 @@ Id: kpr-mm-iplos-i-kpr-bundle2
 Title: "KPR minimelding Notifikasjon"
 Description: "Resource bundle for the mini-melding notifikasjon"
 * ^status = #draft
-* identifier 1..1 // notigikasjonGUID //
+* identifier MS // notigikasjonGUID //
 * type = #Message
 // link are sliced - see example //
 * link 0..*
@@ -110,7 +107,7 @@ Title:  "Mini melding tjeneste payload"
    'entered-in-error' = Tjenesteutfører endret   */
 * serviceType from KPRMMtjenesteTypeVS //tjenesteType//
 * class = #HH // not used //
-* period.start 1..1 //hendelseRegTid//
+* period.start MS //hendelseRegTid//
 * participant.period.start 1..1 //hendelseDato//
 * serviceProvider only Reference(Organization) // kpr-mm-iplos-i-kpr-tjeneste-org //
 
@@ -121,7 +118,7 @@ Parent:  Organization // https://fhir.simplifier.net/HL7Norwayno-basis/Structure
 Id: kpr-mm-iplos-i-kpr-tjeneste-org
 Title: "KPR minimelding utøvende organisasjon"
 Description: "Organisasjonsnummer for organisasjon som utfører tjenesten"
-* identifier 1..1 //kommuneNr//
+* identifier MS //kommuneNr//
 
 // patient/user - probably not needed - IG can use example instance //
 Profile: XPRPatient

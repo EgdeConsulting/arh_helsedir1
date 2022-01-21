@@ -38,7 +38,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
   <code value=""K""/>
 </valueCoding>","","","",,"example","One of the message events defined as part of this version of FHIR.","http://hl7.org/fhir/ValueSet/message-events","",,,,"MessageHeader.event[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","MSH-9.2","./payload[classCode=""CACT"" and moodCode=""EVN"" and isNormalAct()]/code[isNormalDatatype()]/code","FiveWs.what[x]"
-"MessageHeader.destination","","","",0,*,"","","Y","BackboneElement {[]} {[]}
+"MessageHeader.destination","","","",0,*,"Y","","Y","BackboneElement {[]} {[]}
 ","Message destination application(s)","The destination application which the message is intended for.","There SHOULD be at least one destination, but in some circumstances, the source system is unaware of any particular destination system.","Indicates where message is to be sent for routing purposes.  Allows verification of ""am I the intended recipient"".","","","","","","","",,,,,"",,,,"MessageHeader.destination",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./communicationFunction[typeCode=""RCV""]","FiveWs.subject[x]","FiveWs.subject"
 "MessageHeader.destination.id","","","",0,1,"","","","string {[]} {[]}
@@ -89,19 +89,42 @@ user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
-"MessageHeader.source.name","","","",0,1,"","","Y","string {[]} {[]}
+"MessageHeader.source.name","","","",0,1,"Y","","Y","string {[]} {[]}
 ","Name of system","Human-readable name for the source system.","","May be used to support audit.","","","","","","","",,,,,"",,,,"MessageHeader.source.name",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","MSH-3","unique(./entity[determinerCode=""INST"" and classCode=""DEV""]/name[type='ST' and isNormalDatatype()])"
-"MessageHeader.source.software","","","",0,1,"","","Y","string {[]} {[]}
+"MessageHeader.source.software","","","",0,1,"Y","","Y","string {[]} {[]}
 ","Name of software running the system","May include configuration or other information useful in debugging.","","Supports audit and possibly interface engine behavior.","","","","","","","",,,,,"",,,,"MessageHeader.source.software",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","SFT-3 ( +SFT-1)","unique(./entity[determinerCode=""INST"" and classCode=""DEV""]/softwareName[isNormalDatatype()])"
-"MessageHeader.source.version","","","",0,1,"","","Y","string {[]} {[]}
+"MessageHeader.source.version","","","",0,1,"Y","","Y","string {[]} {[]}
 ","Version of software running","Can convey versions of multiple systems in situations where a message passes through multiple hands.","","Supports audit and possibly interface engine behavior.","","","","","","","",,,,,"",,,,"MessageHeader.source.version",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","SFT-2","(Not supported)"
 "MessageHeader.source.contact","","","",0,1,"","","Y","ContactPoint {[]} {[]}
 ","Human contact for problems","An e-mail, phone, website or other contact point to use to resolve issues with message communications.","","Allows escalation of technical issues.","","","","","","","",,,,,"",,,,"MessageHeader.source.contact",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","(MSH-22?)","unique(./entity[determinerCode=""INST"" and classCode=""DEV""]/scopesRole[normalRole() and classCode=""CON"" and layer[classCode=""PSN""]/telecom[isNormalDatatype()])"
-"MessageHeader.source.endpoint","","","",1,1,"","","Y","url {[]} {[]}
+"MessageHeader.source.contact.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"MessageHeader.source.contact.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"MessageHeader.source.contact.system","","","",0,1,"","","Y","code {[]} {[]}
+","phone | fax | email | pager | url | sms | other","Telecommunications form for contact point - what communications system is required to make use of the contact.","","","","","","","","","",,"required","Telecommunications form for contact point.","http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1","",,,,"ContactPoint.system",0,1,"cpt-2
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","XTN.3","./scheme"
+"MessageHeader.source.contact.value","","","",0,1,"Y","","Y","string {[]} {[]}
+","The actual contact point details","The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).","Additional text data such as phone extension numbers, or notes about use of the contact are sometimes included in the value.","Need to support legacy numbers that are not in a tightly controlled format.","","","","","","","",,,,,"",,,,"ContactPoint.value",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","XTN.1 (or XTN.12)","./url"
+"MessageHeader.source.contact.use","","","",0,1,"","Y","Y","code {[]} {[]}
+","home | work | temp | old | mobile - purpose of this contact point","Identifies the purpose for the contact point.","Applications can assume that a contact is current unless it explicitly says that it is temporary or old.","Need to track the way a person uses this contact, so a user can choose which is appropriate for their purpose.","","","","","","","",,"required","Use of contact point.","http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1","",,,,"ContactPoint.use",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","XTN.2 - but often indicated by field","unique(./use)"
+"MessageHeader.source.contact.rank","","","",0,1,"","","Y","positiveInt {[]} {[]}
+","Specify preferred order of use (1 = highest)","Specifies a preferred order in which to use a set of contacts. ContactPoints with lower rank values are more preferred than those with higher rank values.","Note that rank does not necessarily follow the order in which the contacts are represented in the instance.","","","","","","","","",,,,,"",,,,"ContactPoint.rank",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","n/a","n/a"
+"MessageHeader.source.contact.period","","","",0,1,"","","Y","Period {[]} {[]}
+","Time period when the contact point was/is in use","Time period when the contact point was/is in use.","","","","","","","","","",,,,,"",,,,"ContactPoint.period",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","N/A","./usablePeriod[type=""IVL<TS>""]"
+"MessageHeader.source.endpoint","","","",1,1,"Y","","Y","url {[]} {[]}
 ","Actual message source address or id","Identifies the routing target to send acknowledgements to.","The id may be a non-resolvable URI for systems that do not use standard network-based addresses.","Identifies where to send responses, may influence security permissions.","","","","","","","",,,,,"",,,,"MessageHeader.source.endpoint",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","MSH-24","./telecom[isNormalDatatype()]"
 "MessageHeader.responsible","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
