@@ -19,7 +19,8 @@
   <name value="KPRMiniMeldingBundle2"/>
   <title value="KPR minimelding Notifikasjon"/>
   <status value="draft"/>
-  <date value="2022-01-21T15:01:37+01:00"/>
+  <experimental value="true"/>
+  <date value="2022-01-23T13:06:09+01:00"/>
   <description value="Resource bundle for the mini-melding notifikasjon"/>
   <jurisdiction>
     <coding>

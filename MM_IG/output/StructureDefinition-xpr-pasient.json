@@ -19,8 +19,9 @@
   "version": "0.1.0",
   "name": "XPRPatient",
   "title": "XPR bruker/pasient",
-  "status": "active",
-  "date": "2022-01-21T15:01:37+01:00",
+  "status": "draft",
+  "experimental": true,
+  "date": "2022-01-23T13:06:09+01:00",
   "description": "Bruker eller pasient",
   "jurisdiction": [
     {

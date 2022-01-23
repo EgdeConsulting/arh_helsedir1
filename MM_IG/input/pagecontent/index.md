@@ -1,6 +1,10 @@
 # MM_IG Minimelding experimental IG   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     [Return to top level](/arh_helsedir1/)
 
-This IG is an example of how the exeisting XPR 'minimelding' could be modelled with FHIR Resources and described using FHIR Shortyhand (FSH). The original specification can be found here: [iplos-56.0.0/XPR(ipl).xsd](https://github.com/hdir/DHHR.API/blob/master/message-specifications/iplos-56.0.0/XPR(ipl).xsd)
+| Owner: | Helsedirektoratet |
+| OwnerDepartment: | HDDR Helseregister avdeling |
+| Author: | Andy Harrison (innleid) |
+
+This IG is an example of how the exeisting XPR 'mini-melding' could be modelled with FHIR Resources and described using FHIR Shortyhand (FSH). The original specification can be found here: [iplos-56.0.0/XPR(ipl).xsd](https://github.com/hdir/DHHR.API/blob/master/message-specifications/iplos-56.0.0/XPR(ipl).xsd)
 
 The (diagram below)[#id1] shows the data content from the original alongside an equivalent FHIR structure.
 
@@ -33,10 +37,11 @@ XPR Minimelding has 5 types of notification which are defined within the Encount
 The following diagram shows the chosen FHIR data model with the equivalent data fields from the XPR format:
 <img src="../assets/images/MinimeldingModel1.png" alt="FHIR Data Model">
 
+## Notes for Helsedir staff
+Internal notes and files can be found in Confluence.
+
 TODO Checklist:
 1. Profiling needs improved slicing definitions
 2. Work required to refer to no-basis profiles where possible
 3. Add multi-notification example
-4. Add bydel from no-basis address structure
-5. Create correct Volven code references
 6. Model a HST version

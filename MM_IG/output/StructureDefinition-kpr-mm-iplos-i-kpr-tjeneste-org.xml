@@ -17,8 +17,9 @@
   <version value="0.1.0"/>
   <name value="KPRMiniMeldingServiceOrganization"/>
   <title value="KPR minimelding utøvende organisasjon"/>
-  <status value="active"/>
-  <date value="2022-01-21T15:01:37+01:00"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2022-01-23T13:06:09+01:00"/>
   <description value="Organisasjonsnummer for organisasjon som utfører tjenesten"/>
   <jurisdiction>
     <coding>

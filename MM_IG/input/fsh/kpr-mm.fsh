@@ -1,4 +1,4 @@
-Alias: VOL = https://volven.no // 2.16.578.1.12.4.1.1.<kodeverksid>.//
+Alias: VOL = https://volven.no // urn:oid:2.16.578.1.12.4.1.1.<kodeverksid>.//
 Alias: SCT = http://snomed.info/sct
 
 Profile: KPRMiniMeldingBundle1
@@ -7,6 +7,7 @@ Id: kpr-mm-iplos-i-kpr-bundle1
 Title: "KPR minimelding Melding"
 Description: "Resource bundle for the mini-melding"
 * ^status = #draft
+* ^experimental = true
 * identifier MS // meldingGUID //
 
 Profile:  KPRMiniMeldingMessageHeader
@@ -15,7 +16,12 @@ Description:   "KPR minimelding Melding Message Header"
 Id: kpr-mm-iplos-i-kpr-common-header
 Title:  "Mini melding Message Header til nivå 1"
 //* eventUri = http://hddr.no/iplosikpr_felles (exactly) //
-* eventCoding from  KPRMM1eventCodingVS //= #K
+* ^status = #draft
+* ^experimental = true
+* eventCoding ^code.system = "urn:oid:2.16.578.1.12.4.1.1.7371"
+* eventCoding ^code.display = "Volven kodeverk 7371 - Meldingstype"
+* eventCoding ^code.code = #K "Original"
+// * eventCoding from  KPRMM1eventCodingVS //= #K //
 * destination MS //toHerID//
 * source.name MS //navnEPJ//
 * source.contact.value MS //leverandor//
@@ -30,11 +36,15 @@ Parent:  Organization // https://fhir.simplifier.net/HL7Norwayno-basis/Structure
 Id: kpr-mm-iplos-i-kpr-kommune
 Title: "KPR minimelding Kommune"
 Description: "Helse- og omsorgstjenester definert i helse og omsorgsloven"
+* ^status = #draft
+* ^experimental = true
 // TODO switch this to no-basis standard naming system urn:oid:2.16.578.1.12.4.1.1.3403 //
 * identifier MS //kommuneNr//
 // TODO Contact slicing //
+// Consider profiling to only accepted Volven 8471 codes //
 * contact.name 0..1 //kontPerson//
-* contact.purpose from KPRMMKontaktTypeVS //typeKontaktperson//
+* contact.purpose ^code.system = "urn:oid:2.16.578.1.12.4.1.1.8471"
+* contact.purpose ^code.display = "Volven kodeverk 8471 - Kontaktperson type"
 // telecom no constraints  meldTelefon, meldEpost1 & meldEpost2 //
 
 Profile: KPRMiniMeldingBundle2
@@ -43,6 +53,7 @@ Id: kpr-mm-iplos-i-kpr-bundle2
 Title: "KPR minimelding Notifikasjon"
 Description: "Resource bundle for the mini-melding notifikasjon"
 * ^status = #draft
+* ^experimental = true
 * identifier MS // notigikasjonGUID //
 * type = #Message
 // link are sliced - see example //
@@ -56,8 +67,12 @@ Parent: MessageHeader
 Description: "KPR minimelding Melding Submission Header"
 Id: kpr-mm-iplos-i-kpr-submission-header
 Title:  "Mini melding Message Header til original innrapportering"
+* ^status = #draft
+* ^experimental = true
 * eventUri = "http://hddr.no/iplosikpr_submission" (exactly)
-* eventCoding = #N
+* eventCoding ^code.system = "urn:oid:2.16.578.1.12.4.1.1.7316"
+* eventCoding ^code.display = "Volven kodeverk 7316 - status notifikasjon"
+* eventCoding ^code.code = #N "Original"
 * focus only Reference(Encounter)
 
 Profile:  KPRMiniMeldingMessageHeaderErstatt
@@ -65,8 +80,12 @@ Parent: MessageHeader
 Description:   "KPR minimelding Melding KorrigerErstatt Header"
 Id: kpr-mm-iplos-i-kpr-replace-header
 Title:  "Mini melding Message Header til korriger erstatt"
+* ^status = #draft
+* ^experimental = true
 * eventUri = "http://hddr.no/iplosikpr_replace" (exactly)
-* eventCoding = #M
+* eventCoding ^code.system = "urn:oid:2.16.578.1.12.4.1.1.7316"
+* eventCoding ^code.display = "Volven kodeverk 7316 - status notifikasjon"
+* eventCoding ^code.code = #M "KorrigerErstatt"
 * focus only Reference(Encounter)
 
 Profile:  KPRMiniMeldingMessageHeaderSuppler
@@ -74,8 +93,11 @@ Parent: MessageHeader
 Description:   "KPR minimelding Melding KorrigerSuppler Header"
 Id: kpr-mm-iplos-i-kpr-supplement-header
 Title:  "Mini melding Message Header til korriger suppler"
+* ^status = #draft
+* ^experimental = true
 * eventUri = "http://hddr.no/iplosikpr_update" (exactly)
-* eventCoding = #T
+* eventCoding ^code.display = "Volven kodeverk 7316 - status notifikasjon"
+* eventCoding ^code.code = #T "KorrigerSuppler"
 * focus only Reference(Encounter) // KPRMiniMeldingTjeneste //
 
 Profile:  KPRMiniMeldingMessageHeaderAnnuler
@@ -83,8 +105,11 @@ Parent: MessageHeader
 Description:   "KPR minimelding Melding KorrigerSuppler Header"
 Id: kpr-mm-iplos-i-kpr-void-header
 Title:  "Mini melding Message Header til korriger annuller"
+* ^status = #draft
+* ^experimental = true
 * eventUri = "http://hddr.no/iplosikpr_void" (exactly)
-* eventCoding = #C
+* eventCoding ^code.display = "Volven kodeverk 7316 - status notifikasjon"
+* eventCoding ^code.code = #C "KorrigerAnnuller"
 * focus only Reference(Encounter)
 
 // payload for a notification of service//
@@ -93,6 +118,8 @@ Parent: Encounter // https://fhir.simplifier.net/HL7Norwayno-basis/StructureDefi
 Description:   "KPR minimelding tjeneste generisk"
 Id: kpr-mm-iplos-i-kpr-tjeneste
 Title:  "Mini melding tjeneste payload"
+* ^status = #draft
+* ^experimental = true
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
@@ -105,7 +132,15 @@ Title:  "Mini melding tjeneste payload"
    'planned' = Midlertidlig stopp til 
    'finished' = Tjeneste Slutt
    'entered-in-error' = Tjenesteutfører endret   */
-* serviceType from KPRMMtjenesteTypeVS //tjenesteType//
+* serviceType ^code.system = "urn:oid:2.16.578.1.12.4.1.1.9151"
+* serviceType ^code.display = "Volven kodeverk 9151 - Tjenestetype i helse- og omsorgstjenesten"
+/* tjenesteType - TODO consider profiling to restrict allowable codes:
+* #18 "Tidsbegrenset opphold - utredning/behandling"
+* #19 "Tidsbegrenset opphold - habilitering/rehabilitering"
+* #20 "Tidsbegrenset opphold - annet"
+* #21 "Langtidsopphold i institusjon"
+* #29 "Bolig som kommunen disponerer for helse- og omsorgsformål"
+*/ 
 * class = #HH // not used //
 * period.start MS //hendelseRegTid//
 * participant.period.start 1..1 //hendelseDato//
@@ -118,6 +153,8 @@ Parent:  Organization // https://fhir.simplifier.net/HL7Norwayno-basis/Structure
 Id: kpr-mm-iplos-i-kpr-tjeneste-org
 Title: "KPR minimelding utøvende organisasjon"
 Description: "Organisasjonsnummer for organisasjon som utfører tjenesten"
+* ^status = #draft
+* ^experimental = true
 * identifier MS //kommuneNr//
 
 // patient/user - probably not needed - IG can use example instance //
@@ -126,6 +163,8 @@ Parent:  Patient // https://fhir.simplifier.net/HL7Norwayno-basis/StructureDefin
 Id: xpr-pasient
 Title: "XPR bruker/pasient" //potentially XPR rather than IPLOS KPR?//
 Description: "Bruker eller pasient"
+* ^status = #draft
+* ^experimental = true
 /* 
 identifiers are sliced to provide
 brukerNr, fid, FNR etc. Volven 9032 

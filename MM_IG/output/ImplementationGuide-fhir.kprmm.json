@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "KPR_MM_IG",
   "status": "draft",
-  "date": "2022-01-21T15:01:37+01:00",
+  "date": "2022-01-23T13:06:09+01:00",
   "jurisdiction": [
     {
       "coding": [
@@ -443,118 +443,6 @@
         },
         "name": "no-basis-urban-district",
         "description": "Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/Volven-IPLOSiKPR-7371"
-        },
-        "name": "Status notifikasjon",
-        "description": "Angivelse av status på denne innrapoerterte notifikasjon",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/Volven-IPLOSiKPR-7316"
-        },
-        "name": "Status notifikasjon",
-        "description": "Angivelse av status på denne innrapoerterte notifikasjon",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/Volven-IPLOSiKPR-8471"
-        },
-        "name": "Kontaktperson type",
-        "description": "Hvilken sektor innen Helseinstitusjon eller tjeneste innen den kommunale helsetjenesten denne kontaktperson dekker.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/Volven-IPLOSiKPR-9151"
-        },
-        "name": "Tjenestetype i helse- og omsorgstjenesten",
-        "description": "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/Volven-IPLOSiKPR-7316"
-        },
-        "name": "StatusNotifikasjon",
-        "description": "Benyttes for å angi status på innrapporterte hendelser",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/Volven-IPLOSiKPR-7371"
-        },
-        "name": "Meldingstype",
-        "description": "Beskrivelse av hvordan melding skal behandles ved ankomst til NPR",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/Volven-IPLOSiKPR-8471"
-        },
-        "name": "Kontaktperson type",
-        "description": "Benyttes for å angi status på innrapporterte hendelser",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/Volven-IPLOSiKPR-9151"
-        },
-        "name": "Tjenestetype i helse- og omsorgstjenesten",
-        "description": "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding",
         "exampleBoolean": false
       },
       {

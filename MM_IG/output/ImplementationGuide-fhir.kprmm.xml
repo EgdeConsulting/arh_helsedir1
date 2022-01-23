@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="KPR_MM_IG"/>
   <status value="draft"/>
-  <date value="2022-01-21T15:01:37+01:00"/>
+  <date value="2022-01-23T13:06:09+01:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -303,94 +303,6 @@
       </reference>
       <name value="no-basis-urban-district"/>
       <description value="Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/Volven-IPLOSiKPR-7371"/>
-      </reference>
-      <name value="Status notifikasjon"/>
-      <description value="Angivelse av status på denne innrapoerterte notifikasjon"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/Volven-IPLOSiKPR-7316"/>
-      </reference>
-      <name value="Status notifikasjon"/>
-      <description value="Angivelse av status på denne innrapoerterte notifikasjon"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/Volven-IPLOSiKPR-8471"/>
-      </reference>
-      <name value="Kontaktperson type"/>
-      <description value="Hvilken sektor innen Helseinstitusjon eller tjeneste innen den kommunale helsetjenesten denne kontaktperson dekker."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/Volven-IPLOSiKPR-9151"/>
-      </reference>
-      <name value="Tjenestetype i helse- og omsorgstjenesten"/>
-      <description value="Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/Volven-IPLOSiKPR-7316"/>
-      </reference>
-      <name value="StatusNotifikasjon"/>
-      <description value="Benyttes for å angi status på innrapporterte hendelser"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/Volven-IPLOSiKPR-7371"/>
-      </reference>
-      <name value="Meldingstype"/>
-      <description value="Beskrivelse av hvordan melding skal behandles ved ankomst til NPR"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/Volven-IPLOSiKPR-8471"/>
-      </reference>
-      <name value="Kontaktperson type"/>
-      <description value="Benyttes for å angi status på innrapporterte hendelser"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/Volven-IPLOSiKPR-9151"/>
-      </reference>
-      <name value="Tjenestetype i helse- og omsorgstjenesten"/>
-      <description value="Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -14,7 +14,7 @@ Instance: minimeldingMessageHeaderExample1
 InstanceOf: KPRMiniMeldingMessageHeader
 Usage: #example
 Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1"
-* eventCoding = #K
+* eventCoding = #K "Original"
 * destination.endpoint = "8139520" // toHerID //
 * source.name = "McGlynn - Schinner" // navnEPJ //
 * source.contact.value = "Johnston, Wilkinson and Kilback" // leverandør //

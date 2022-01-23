@@ -20,7 +20,8 @@
   "name": "KPRMiniMeldingBundle1",
   "title": "KPR minimelding Melding",
   "status": "draft",
-  "date": "2022-01-21T15:01:37+01:00",
+  "experimental": true,
+  "date": "2022-01-23T13:06:09+01:00",
   "description": "Resource bundle for the mini-melding",
   "jurisdiction": [
     {

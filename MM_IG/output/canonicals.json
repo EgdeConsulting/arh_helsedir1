@@ -1,33 +1,5 @@
 [
   {
-    "id": "Volven-IPLOSiKPR-7316",
-    "type": "CodeSystem",
-    "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7316",
-    "version": "0.1.0",
-    "name": "VolvenIPLOSiKPR7316"
-  },
-  {
-    "id": "Volven-IPLOSiKPR-7371",
-    "type": "CodeSystem",
-    "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-7371",
-    "version": "0.1.0",
-    "name": "VolvenIPLOSiKPR7371"
-  },
-  {
-    "id": "Volven-IPLOSiKPR-8471",
-    "type": "CodeSystem",
-    "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-8471",
-    "version": "0.1.0",
-    "name": "VolvenIPLOSiKPR8471"
-  },
-  {
-    "id": "Volven-IPLOSiKPR-9151",
-    "type": "CodeSystem",
-    "url": "http://hddr.no//CodeSystem/Volven-IPLOSiKPR-9151",
-    "version": "0.1.0",
-    "name": "VolvenIPLOSiKPR9151"
-  },
-  {
     "id": "fhir.kprmm",
     "type": "ImplementationGuide",
     "url": "http://hddr.no//ImplementationGuide/fhir.kprmm",
@@ -117,34 +89,6 @@
     "url": "http://hddr.no//StructureDefinition/xpr-pasient",
     "version": "0.1.0",
     "name": "XPRPatient"
-  },
-  {
-    "id": "Volven-IPLOSiKPR-7316",
-    "type": "ValueSet",
-    "url": "http://hddr.no//ValueSet/Volven-IPLOSiKPR-7316",
-    "version": "0.1.0",
-    "name": "KPRMM2eventCodingVS"
-  },
-  {
-    "id": "Volven-IPLOSiKPR-7371",
-    "type": "ValueSet",
-    "url": "http://hddr.no//ValueSet/Volven-IPLOSiKPR-7371",
-    "version": "0.1.0",
-    "name": "KPRMM1eventCodingVS"
-  },
-  {
-    "id": "Volven-IPLOSiKPR-8471",
-    "type": "ValueSet",
-    "url": "http://hddr.no//ValueSet/Volven-IPLOSiKPR-8471",
-    "version": "0.1.0",
-    "name": "KPRMMKontaktTypeVS"
-  },
-  {
-    "id": "Volven-IPLOSiKPR-9151",
-    "type": "ValueSet",
-    "url": "http://hddr.no//ValueSet/Volven-IPLOSiKPR-9151",
-    "version": "0.1.0",
-    "name": "KPRMMtjenesteTypeVS"
   },
   {
     "id": "minimeldingMessageDefinitionExample1",

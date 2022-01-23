@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "KPR_MM_IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-01-21T15:01:37+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-23T13:06:09+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -435,118 +435,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/ValueSet/Volven-IPLOSiKPR-7371>;
-         fhir:Reference.reference [ fhir:value "ValueSet/Volven-IPLOSiKPR-7371" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Status notifikasjon" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angivelse av status på denne innrapoerterte notifikasjon" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 13;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/ValueSet/Volven-IPLOSiKPR-7316>;
-         fhir:Reference.reference [ fhir:value "ValueSet/Volven-IPLOSiKPR-7316" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Status notifikasjon" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angivelse av status på denne innrapoerterte notifikasjon" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 14;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/ValueSet/Volven-IPLOSiKPR-8471>;
-         fhir:Reference.reference [ fhir:value "ValueSet/Volven-IPLOSiKPR-8471" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Kontaktperson type" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hvilken sektor innen Helseinstitusjon eller tjeneste innen den kommunale helsetjenesten denne kontaktperson dekker." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 15;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/ValueSet/Volven-IPLOSiKPR-9151>;
-         fhir:Reference.reference [ fhir:value "ValueSet/Volven-IPLOSiKPR-9151" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tjenestetype i helse- og omsorgstjenesten" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 16;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/CodeSystem/Volven-IPLOSiKPR-7316>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/Volven-IPLOSiKPR-7316" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "StatusNotifikasjon" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Benyttes for å angi status på innrapporterte hendelser" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 17;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/CodeSystem/Volven-IPLOSiKPR-7371>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/Volven-IPLOSiKPR-7371" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Meldingstype" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beskrivelse av hvordan melding skal behandles ved ankomst til NPR" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 18;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/CodeSystem/Volven-IPLOSiKPR-8471>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/Volven-IPLOSiKPR-8471" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Kontaktperson type" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Benyttes for å angi status på innrapporterte hendelser" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 19;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/CodeSystem/Volven-IPLOSiKPR-9151>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/Volven-IPLOSiKPR-9151" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tjenestetype i helse- og omsorgstjenesten" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tjenester som skal rapporteres til KPR i helse- og omsorgsmelding" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 20;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Encounter" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -560,7 +448,7 @@
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste>
        ]
      ], [
-       fhir:index 21;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -577,7 +465,7 @@
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2>
        ]
      ], [
-       fhir:index 22;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -594,7 +482,7 @@
          fhir:link <http://hddr.no//StructureDefinition/xpr-pasient>
        ]
      ], [
-       fhir:index 23;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -611,7 +499,7 @@
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune>
        ]
      ], [
-       fhir:index 24;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -628,7 +516,7 @@
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1>
        ]
      ], [
-       fhir:index 25;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -642,7 +530,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om " ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 26;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -659,7 +547,7 @@
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header>
        ]
      ], [
-       fhir:index 27;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
