@@ -3,7 +3,7 @@
 
 err = 24, warn = 22, info = 8
 IG Publisher Version: 1.1.92 Out of date - current version is ?pub-ver-1?
-Generated Sun Jan 23 13:07:07 CET 2022. FHIR version 4.0.1 for fhir.kprmm#0.1.0 (canonical = http://hddr.no/)
+Generated Mon Jan 24 13:46:57 CET 2022. FHIR version 4.0.1 for fhir.kprmm#0.1.0 (canonical = http://hddr.no/)
  Build Errors : 148 / 0 / 0
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/ImplementationGuide-fhir.kprmm : 1 / 1 / 1
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-KPRminiMeldingMessageBundle2Example1 : 3 / 1 / 3
@@ -94,14 +94,14 @@ ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-common-header.profile.json.html#/html/body/div/div/div/p/a at Line 2678, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-common-header.profile.ttl.html#/html/body/div/div/div/p/a at Line 2364, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-common-header.profile.xml.html#/html/body/div/div/div/p/a at Line 2415, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune-definitions.html#/html/body/div/div/div/p/a at Line 511, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune-definitions.html#/html/body/div/div/div/p/a at Line 597, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune-mappings.html#/html/body/div/div/div/p/a at Line 300, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.html#/html/body/div/div/div/p/a at Line 622, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune-mappings.html#/html/body/div/div/div/p/a at Line 318, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.html#/html/body/div/div/div/p/a at Line 671, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.json.html#/html/body/div/div/div/p/a at Line 1552, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.ttl.html#/html/body/div/div/div/p/a at Line 1395, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.xml.html#/html/body/div/div/div/p/a at Line 1421, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.json.html#/html/body/div/div/div/p/a at Line 1958, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.ttl.html#/html/body/div/div/div/p/a at Line 1733, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.xml.html#/html/body/div/div/div/p/a at Line 1777, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-replace-header-definitions.html#/html/body/div/div/div/p/a at Line 678, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-replace-header-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-replace-header-mappings.html#/html/body/div/div/div/p/a at Line 315, column 28: The link '' for "" cannot be resolved

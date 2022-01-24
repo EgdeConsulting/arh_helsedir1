@@ -21,7 +21,6 @@ Title:  "Mini melding Message Header til nivå 1"
 * eventCoding ^code.system = "urn:oid:2.16.578.1.12.4.1.1.7371"
 * eventCoding ^code.display = "Volven kodeverk 7371 - Meldingstype"
 * eventCoding ^code.code = #K "Original"
-// * eventCoding from  KPRMM1eventCodingVS //= #K //
 * destination MS //toHerID//
 * source.name MS //navnEPJ//
 * source.contact.value MS //leverandor//
@@ -38,8 +37,8 @@ Title: "KPR minimelding Kommune"
 Description: "Helse- og omsorgstjenester definert i helse og omsorgsloven"
 * ^status = #draft
 * ^experimental = true
-// TODO switch this to no-basis standard naming system urn:oid:2.16.578.1.12.4.1.1.3403 //
-* identifier MS //kommuneNr//
+* identifier.system = "urn:oid:2.16.578.1.12.4.1.1.3403" (exactly)
+* identifier.value MS //kommuneNr//
 // TODO Contact slicing //
 // Consider profiling to only accepted Volven 8471 codes //
 * contact.name 0..1 //kontPerson//
