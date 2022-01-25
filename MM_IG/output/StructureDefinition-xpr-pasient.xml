@@ -45,7 +45,7 @@ Organization that issued/manages the identifier.">assigner</a><a name="Patient.i
   <title value="XPR bruker/pasient"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2022-01-24T13:46:11+01:00"/>
+  <date value="2022-01-25T09:55:13+01:00"/>
   <description value="Bruker eller pasient"/>
   <jurisdiction>
     <coding>

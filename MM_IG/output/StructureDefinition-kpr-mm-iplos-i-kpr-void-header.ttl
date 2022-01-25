@@ -27,7 +27,7 @@
   fhir:StructureDefinition.title [ fhir:value "Mini melding Message Header til korriger annuller"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2022-01-24T13:46:11+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-01-25T09:55:13+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "KPR minimelding Melding KorrigerSuppler Header"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;

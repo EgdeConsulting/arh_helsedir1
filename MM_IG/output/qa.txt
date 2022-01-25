@@ -2,8 +2,8 @@
 =========================================
 
 err = 24, warn = 22, info = 8
-IG Publisher Version: 1.1.92 Out of date - current version is ?pub-ver-1?
-Generated Mon Jan 24 13:46:57 CET 2022. FHIR version 4.0.1 for fhir.kprmm#0.1.0 (canonical = http://hddr.no/)
+IG Publisher Version: 1.1.97 Out of date - current version is ?pub-ver-1?
+Generated Tue Jan 25 09:55:59 CET 2022. FHIR version 4.0.1 for fhir.kprmm#0.1.0 (canonical = http://hddr.no/)
  Build Errors : 148 / 0 / 0
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/ImplementationGuide-fhir.kprmm : 1 / 1 / 1
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-KPRminiMeldingMessageBundle2Example1 : 3 / 1 / 3
