@@ -50,7 +50,7 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - organ
 // Bundle of type Message for level 2 notifikasjon//
 Instance: KPRminiMeldingMessageBundle2Example1
 InstanceOf: KPRMiniMeldingBundle2
-Usage: #inline
+Usage: #example
 Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notifikasjon bundle nivå 2"
 * identifier.value = "e86318da-b16b-5023-0e7a-d129b6835feb" // notigikasjonGUID //
 * type = #Message

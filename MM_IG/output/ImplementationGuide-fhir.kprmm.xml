@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="KPR_MM_IG"/>
   <status value="draft"/>
-  <date value="2022-01-26T11:43:46+01:00"/>
+  <date value="2022-01-26T12:06:52+01:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -304,6 +304,17 @@
       <name value="no-basis-urban-district"/>
       <description value="Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/KPRminiMeldingMessageBundle2Example1"/>
+      </reference>
+      <name value="KPRminiMeldingMessageBundle2Example1"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notifikasjon bundle nivå 2"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

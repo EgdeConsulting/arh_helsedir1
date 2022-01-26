@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "KPR_MM_IG",
   "status": "draft",
-  "date": "2022-01-26T11:43:46+01:00",
+  "date": "2022-01-26T12:06:52+01:00",
   "jurisdiction": [
     {
       "coding": [
@@ -444,6 +444,20 @@
         "name": "no-basis-urban-district",
         "description": "Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose.",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/KPRminiMeldingMessageBundle2Example1"
+        },
+        "name": "KPRminiMeldingMessageBundle2Example1",
+        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notifikasjon bundle nivå 2",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"
       },
       {
         "extension": [

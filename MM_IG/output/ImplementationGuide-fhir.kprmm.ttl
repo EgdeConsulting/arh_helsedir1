@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "KPR_MM_IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-01-26T11:43:46+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-26T12:06:52+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -432,6 +432,23 @@
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Bundle" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hddr.no/Bundle/KPRminiMeldingMessageBundle2Example1>;
+         fhir:Reference.reference [ fhir:value "Bundle/KPRminiMeldingMessageBundle2Example1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "KPRminiMeldingMessageBundle2Example1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notifikasjon bundle nivå 2" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2";
+         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2>
+       ]
+     ], [
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

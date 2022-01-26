@@ -27,7 +27,7 @@
   fhir:StructureDefinition.title [ fhir:value "KPR minimelding Kommune"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2022-01-26T11:43:46+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-01-26T12:06:52+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Helse- og omsorgstjenester definert i helse og omsorgsloven"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;

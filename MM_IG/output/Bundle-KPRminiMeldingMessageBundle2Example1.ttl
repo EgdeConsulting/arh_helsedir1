@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hddr.no/Bundle/KPRminiMeldingMessageBundle2Example1> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "KPRminiMeldingMessageBundle2Example1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2";
+       fhir:index 0;
+       fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2>
+     ]
+  ];
+  fhir:Bundle.identifier [
+     fhir:Identifier.value [ fhir:value "e86318da-b16b-5023-0e7a-d129b6835feb" ]
+  ];
+  fhir:Bundle.type [ fhir:value "Message"];
+  fhir:Bundle.timestamp [ fhir:value "2021-12-06T06:37:30.7379426+00:00"^^xsd:dateTime];
+  fhir:Bundle.link [
+     fhir:index 0;
+     fhir:Bundle.link.relation [ fhir:value "previous" ];
+     fhir:Bundle.link.url [ fhir:value "http://hddr.no/kpr-mm-iplos-i-kpr-bundle2/00000000-0000-0000-0000-000000000000" ]
+  ], [
+     fhir:index 1;
+     fhir:Bundle.link.relation [ fhir:value "related" ];
+     fhir:Bundle.link.url [ fhir:value "http://hddr.no/kpr-mm-iplos-i-kpr-bundle2/00000000-0000-0000-0000-000000000000" ]
+  ];
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.fullUrl [ fhir:value "http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1" ];
+     fhir:Bundle.entry.resource <http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1>
+  ] .
+
+<http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1> a fhir:MessageHeader;
+  fhir:Resource.id [ fhir:value "minimeldingMessageHeader2Example1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header";
+       fhir:index 0;
+       fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"minimeldingMessageHeader2Example1\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-kpr-mm-iplos-i-kpr-submission-header.html\">Mini melding Message Header til original innrapportering</a></p></div><p><b>event</b>: N (Details: [not stated] code N = 'N', stated as 'null')</p><h3>Sources</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>Johnston, Wilkinson and Kilback</td><td><code>8139519</code></td></tr></table><p><b>focus</b>: <a href=\"Encounter/KPRMiniMeldingTjenesteExample1\">Encounter/KPRMiniMeldingTjenesteExample1</a></p><p><b>definition</b>: <code>minimeldingMessageDefinitionExample1</code></p></div>"
+  ];
+  fhir:MessageHeader.eventCoding [
+     fhir:Coding.code [ fhir:value "N" ]
+  ];
+  fhir:MessageHeader.source [
+     fhir:MessageHeader.source.name [ fhir:value "Johnston, Wilkinson and Kilback" ];
+     fhir:MessageHeader.source.endpoint [ fhir:value "8139519" ]
+  ];
+  fhir:MessageHeader.focus [
+     fhir:index 0;
+     fhir:link <http://hddr.no/Encounter/KPRMiniMeldingTjenesteExample1>;
+     fhir:Reference.reference [ fhir:value "Encounter/KPRMiniMeldingTjenesteExample1" ]
+  ];
+  fhir:MessageHeader.definition [ fhir:value "minimeldingMessageDefinitionExample1"] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hddr.no/Bundle/KPRminiMeldingMessageBundle2Example1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
