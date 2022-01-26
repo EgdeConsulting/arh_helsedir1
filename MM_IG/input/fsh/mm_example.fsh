@@ -12,7 +12,7 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - meldi
 // level 1 message header //
 Instance: minimeldingMessageHeaderExample1
 InstanceOf: KPRMiniMeldingMessageHeader
-Usage: #example
+Usage: #inline
 Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1"
 * eventCoding = #K "Original"
 * destination.endpoint = "8139520" // toHerID //
@@ -27,7 +27,7 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding
 // org/kommmune and contact details //
 Instance: XPRmunicipalityOrganizationExample1
 InstanceOf: XPRmunicipalityOrganization
-Usage: #example
+Usage: #inline
 Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - organisasjonsdetaljer nivå 2"
 * identifier.system = "urn:oid:2.16.578.1.12.4.1.1.3403"
 * identifier.value = "1857" //kommuneNr//
@@ -50,7 +50,7 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - organ
 // Bundle of type Message for level 2 notifikasjon//
 Instance: KPRminiMeldingMessageBundle2Example1
 InstanceOf: KPRMiniMeldingBundle2
-Usage: #example
+Usage: #inline
 Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notifikasjon bundle nivå 2"
 * identifier.value = "e86318da-b16b-5023-0e7a-d129b6835feb" // notigikasjonGUID //
 * type = #Message
@@ -65,7 +65,7 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notif
 // level 2 message header //
 Instance: minimeldingMessageHeader2Example1
 InstanceOf: KPRMiniMeldingMessageHeaderSubmission
-Usage: #example
+Usage: #inline
 Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1"
 * source.name = "Johnston, Wilkinson and Kilback"
 * source.endpoint = "8139519"
@@ -76,7 +76,7 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding
 
 Instance: minimeldingMessageDefinitionExample1
 InstanceOf: MessageDefinition
-Usage: #example
+Usage: #inline
 Description: "Enkelt notifikasjon om "
 * category = #notification
 * version = "3" // løpenummer //
@@ -88,7 +88,7 @@ Description: "Enkelt notifikasjon om "
 // Encounter level 3 //
 Instance: KPRMiniMeldingTjenesteExample1
 InstanceOf: KPRMiniMeldingTjeneste
-Usage: #example
+Usage: #inline
 Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - payload midlertidigStoppTil"
 * identifier[+].type = #hendelseGUID 
 * identifier[=].value = "aa88951c-0b23-62ad-022d-260650878388"
@@ -103,7 +103,7 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - paylo
 // Patient level 4 //
 Instance: XPRPatientExample1
 InstanceOf: XPRPatient
-Usage: #example
+Usage: #inline
 Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820638"
 * identifier[+].system = "EPJ" 
 * identifier[=].value = "538bad1b-6bb8-ec67-8f4e-27d4f430c087" //pasientGUID//

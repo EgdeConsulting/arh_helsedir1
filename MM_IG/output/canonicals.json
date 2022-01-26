@@ -89,11 +89,5 @@
     "url": "http://hddr.no//StructureDefinition/xpr-pasient",
     "version": "0.1.0",
     "name": "XPRPatient"
-  },
-  {
-    "id": "minimeldingMessageDefinitionExample1",
-    "type": "MessageDefinition",
-    "url": "http://hddr.no/MessageDefinition/minimeldingMessageDefinitionExample1",
-    "version": "0.1.0"
   }
 ]

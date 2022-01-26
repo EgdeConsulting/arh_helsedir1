@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "KPR_MM_IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-01-25T09:55:13+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-26T11:43:46+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -435,74 +435,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Encounter" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/Encounter/KPRMiniMeldingTjenesteExample1>;
-         fhir:Reference.reference [ fhir:value "Encounter/KPRMiniMeldingTjenesteExample1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "KPRMiniMeldingTjenesteExample1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - payload midlertidigStoppTil" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste";
-         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste>
-       ]
-     ], [
-       fhir:index 13;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Bundle" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/Bundle/KPRminiMeldingMessageBundle2Example1>;
-         fhir:Reference.reference [ fhir:value "Bundle/KPRminiMeldingMessageBundle2Example1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "KPRminiMeldingMessageBundle2Example1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notifikasjon bundle nivå 2" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2";
-         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2>
-       ]
-     ], [
-       fhir:index 14;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Patient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/Patient/XPRPatientExample1>;
-         fhir:Reference.reference [ fhir:value "Patient/XPRPatientExample1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "XPRPatientExample1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hddr.no//StructureDefinition/xpr-pasient";
-         fhir:link <http://hddr.no//StructureDefinition/xpr-pasient>
-       ]
-     ], [
-       fhir:index 15;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/Organization/XPRmunicipalityOrganizationExample1>;
-         fhir:Reference.reference [ fhir:value "Organization/XPRmunicipalityOrganizationExample1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "XPRmunicipalityOrganizationExample1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - organisasjonsdetaljer nivå 2" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune";
-         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune>
-       ]
-     ], [
-       fhir:index 16;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -514,54 +446,6 @@
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1";
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1>
-       ]
-     ], [
-       fhir:index 17;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "MessageDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/MessageDefinition/minimeldingMessageDefinitionExample1>;
-         fhir:Reference.reference [ fhir:value "MessageDefinition/minimeldingMessageDefinitionExample1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "minimeldingMessageDefinitionExample1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om " ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 18;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "MessageHeader" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/MessageHeader/minimeldingMessageHeader2Example1>;
-         fhir:Reference.reference [ fhir:value "MessageHeader/minimeldingMessageHeader2Example1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "minimeldingMessageHeader2Example1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header";
-         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header>
-       ]
-     ], [
-       fhir:index 19;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "MessageHeader" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/MessageHeader/minimeldingMessageHeaderExample1>;
-         fhir:Reference.reference [ fhir:value "MessageHeader/minimeldingMessageHeaderExample1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "minimeldingMessageHeaderExample1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-common-header";
-         fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-common-header>
        ]
      ];
      fhir:ImplementationGuide.definition.page [

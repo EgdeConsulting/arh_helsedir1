@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "KPR_MM_IG",
   "status": "draft",
-  "date": "2022-01-25T09:55:13+01:00",
+  "date": "2022-01-26T11:43:46+01:00",
   "jurisdiction": [
     {
       "coding": [
@@ -449,62 +449,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Encounter"
-          }
-        ],
-        "reference": {
-          "reference": "Encounter/KPRMiniMeldingTjenesteExample1"
-        },
-        "name": "KPRMiniMeldingTjenesteExample1",
-        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - payload midlertidigStoppTil",
-        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Bundle"
-          }
-        ],
-        "reference": {
-          "reference": "Bundle/KPRminiMeldingMessageBundle2Example1"
-        },
-        "name": "KPRminiMeldingMessageBundle2Example1",
-        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notifikasjon bundle nivå 2",
-        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Patient"
-          }
-        ],
-        "reference": {
-          "reference": "Patient/XPRPatientExample1"
-        },
-        "name": "XPRPatientExample1",
-        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638",
-        "exampleCanonical": "http://hddr.no//StructureDefinition/xpr-pasient"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Organization"
-          }
-        ],
-        "reference": {
-          "reference": "Organization/XPRmunicipalityOrganizationExample1"
-        },
-        "name": "XPRmunicipalityOrganizationExample1",
-        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - organisasjonsdetaljer nivå 2",
-        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Bundle"
           }
         ],
@@ -514,48 +458,6 @@
         "name": "minimeldingMessageBundle1Example1",
         "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - melding nivå 1",
         "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "MessageDefinition"
-          }
-        ],
-        "reference": {
-          "reference": "MessageDefinition/minimeldingMessageDefinitionExample1"
-        },
-        "name": "minimeldingMessageDefinitionExample1",
-        "description": "Enkelt notifikasjon om ",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "MessageHeader"
-          }
-        ],
-        "reference": {
-          "reference": "MessageHeader/minimeldingMessageHeader2Example1"
-        },
-        "name": "minimeldingMessageHeader2Example1",
-        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1",
-        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "MessageHeader"
-          }
-        ],
-        "reference": {
-          "reference": "MessageHeader/minimeldingMessageHeaderExample1"
-        },
-        "name": "minimeldingMessageHeaderExample1",
-        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 melding header nivå 1",
-        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-common-header"
       }
     ],
     "page": {
