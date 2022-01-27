@@ -3,12 +3,12 @@
 
 err = 38, warn = 35, info = 19
 IG Publisher Version: 1.1.97 Out of date - current version is ?pub-ver-1?
-Generated Thu Jan 27 08:52:54 CET 2022. FHIR version 4.0.1 for fhir.kprmm#0.1.0 (canonical = http://hddr.no/)
+Generated Thu Jan 27 09:21:19 CET 2022. FHIR version 4.0.1 for fhir.kprmm#0.1.0 (canonical = http://hddr.no/)
  Build Errors : 186 / 0 / 0
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/ImplementationGuide-fhir.kprmm : 1 / 0 / 1
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-100mmMessageBundle1Fid638 : 2 / 2 / 3
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-120mmMessageBundle2Fid638 : 3 / 1 / 3
- /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-200mmMessageBundle1Fid721 : 2 / 2 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-200mmMessageBundle1FidsX2 : 2 / 2 / 3
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-220mmMessageBundle2Fid652 : 3 / 1 / 3
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-220mmMessageBundle2Fid721 : 3 / 1 / 3
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/encounter-130mmTjenesteFid638 : 4 / 3 / 3
@@ -18,7 +18,7 @@ Generated Thu Jan 27 08:52:54 CET 2022. FHIR version 4.0.1 for fhir.kprmm#0.1.0 
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/messagedefinition-222mmMessageDefinitionFid652 : 0 / 1 / 2
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/messagedefinition-222mmMessageDefinitionFid721 : 0 / 1 / 2
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/organization-111XPRmunicipalityOrganizationFid638 : 0 / 2 / 1
- /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/organization-202XPRmunicipalityOrganizationFid721 : 0 / 2 / 1
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/organization-202XPRmunicipalityOrganizationFidX2 : 0 / 2 / 1
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/patient-140XPRPatientFid638 : 2 / 0 / 3
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/patient-240XPRPatientFid652 : 2 / 0 / 3
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/patient-240XPRPatientFid721 : 2 / 0 / 3
@@ -46,11 +46,11 @@ ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-120mmMessageBundle2
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-120mmMessageBundle2Fid638.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-120mmMessageBundle2Fid638.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-120mmMessageBundle2Fid638.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1Fid721.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1Fid721.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1Fid721.json.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1Fid721.ttl.html#/html/body/div/div/div/p/a at Line 274, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1Fid721.xml.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1FidsX2.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1FidsX2.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1FidsX2.json.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1FidsX2.ttl.html#/html/body/div/div/div/p/a at Line 274, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1FidsX2.xml.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid652.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid652.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid652.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
@@ -96,11 +96,11 @@ ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-111XPRmunicip
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-111XPRmunicipalityOrganizationFid638.json.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-111XPRmunicipalityOrganizationFid638.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-111XPRmunicipalityOrganizationFid638.xml.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFid721.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFid721.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFid721.json.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFid721.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFid721.xml.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFidX2.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFidX2.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFidX2.json.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFidX2.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFidX2.xml.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-140XPRPatientFid638.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-140XPRPatientFid638.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-140XPRPatientFid638.json.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
@@ -234,11 +234,11 @@ ERROR: Bundle.entry[0].resource: Unrecognised property '@eventUri'
 ERROR: Bundle/120mmMessageBundle2Fid638: Bundle.type: The value provided ('Message') is not in the value set 'BundleType' (http://hl7.org/fhir/ValueSet/bundle-type|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/bundle-type#Message in http://hl7.org/fhir/bundle-type)
 WARNING: Bundle/120mmMessageBundle2Fid638: Bundle.entry[0].resource.ofType(MessageHeader).event.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 ERROR: Bundle/120mmMessageBundle2Fid638: Bundle.entry[0].resource.ofType(MessageHeader).definition: Canonical URLs must be absolute URLs if they are not fragment references (122mmMessageDefinitionFid638)
-== fsh-generated/resources/Bundle-200mmMessageBundle1Fid721.json ==
-ERROR: Bundle/200mmMessageBundle1Fid721: Bundle: bdl-12: 'A message must have a MessageHeader as the first resource' Rule 'A message must have a MessageHeader as the first resource' Failed
-WARNING: Bundle/200mmMessageBundle1Fid721: Bundle.entry[0].resource.ofType(Organization).contact[0].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
-WARNING: Bundle/200mmMessageBundle1Fid721: Bundle.entry[0].resource.ofType(Organization).contact[1].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: Bundle/200mmMessageBundle1Fid721: Bundle.entry[1].resource: The first entry in a message must be a MessageHeader
+== fsh-generated/resources/Bundle-200mmMessageBundle1FidsX2.json ==
+ERROR: Bundle/200mmMessageBundle1FidsX2: Bundle: bdl-12: 'A message must have a MessageHeader as the first resource' Rule 'A message must have a MessageHeader as the first resource' Failed
+WARNING: Bundle/200mmMessageBundle1FidsX2: Bundle.entry[0].resource.ofType(Organization).contact[0].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Bundle/200mmMessageBundle1FidsX2: Bundle.entry[0].resource.ofType(Organization).contact[1].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Bundle/200mmMessageBundle1FidsX2: Bundle.entry[1].resource: The first entry in a message must be a MessageHeader
 == fsh-generated/resources/Bundle-220mmMessageBundle2Fid652.json ==
 ERROR: Bundle.entry[0].resource: Unrecognised property '@eventUri'
 ERROR: Bundle/220mmMessageBundle2Fid652: Bundle.type: The value provided ('Message') is not in the value set 'BundleType' (http://hl7.org/fhir/ValueSet/bundle-type|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/bundle-type#Message in http://hl7.org/fhir/bundle-type)
@@ -291,9 +291,9 @@ INFORMATION: MessageDefinition/222mmMessageDefinitionFid721: MessageDefinition.e
 == fsh-generated/resources/Organization-111XPRmunicipalityOrganizationFid638.json ==
 WARNING: Organization/111XPRmunicipalityOrganizationFid638: Organization.contact[0].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
 WARNING: Organization/111XPRmunicipalityOrganizationFid638: Organization.contact[1].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
-== fsh-generated/resources/Organization-202XPRmunicipalityOrganizationFid721.json ==
-WARNING: Organization/202XPRmunicipalityOrganizationFid721: Organization.contact[0].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
-WARNING: Organization/202XPRmunicipalityOrganizationFid721: Organization.contact[1].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Organization-202XPRmunicipalityOrganizationFidX2.json ==
+WARNING: Organization/202XPRmunicipalityOrganizationFidX2: Organization.contact[0].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Organization/202XPRmunicipalityOrganizationFidX2: Organization.contact[1].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/Patient-140XPRPatientFid638.json ==
 INFORMATION: Patient/140XPRPatientFid638: Patient.identifier[0]: This element does not match any known slice defined in the profile http://hddr.no//StructureDefinition/xpr-pasient
 ERROR: Patient/140XPRPatientFid638: Patient.identifier[0]: Identifier.system must be an absolute reference, not a local reference

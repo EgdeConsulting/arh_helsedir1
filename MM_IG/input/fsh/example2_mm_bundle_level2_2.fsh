@@ -39,7 +39,7 @@ Description: "Provides the løpenummer"
 Instance: 230mmTjenesteFid652
 InstanceOf: KPRMiniMeldingTjeneste
 Usage: #example
-Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820652 - payload midlertidigStoppTil"
+Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820652 - payload tjenesteStart"
 * identifier[+].type = #hendelseGUID 
 * identifier[=].value = "677875f0-2012-6516-b575-16446c0ec4d9"
 * identifier[+].type = #tjenesteID

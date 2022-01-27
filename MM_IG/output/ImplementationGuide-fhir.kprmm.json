@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "KPR_MM_IG",
   "status": "draft",
-  "date": "2022-01-27T08:52:04+01:00",
+  "date": "2022-01-27T09:20:32+01:00",
   "jurisdiction": [
     {
       "coding": [
@@ -537,10 +537,10 @@
           }
         ],
         "reference": {
-          "reference": "Bundle/200mmMessageBundle1Fid721"
+          "reference": "Bundle/200mmMessageBundle1FidsX2"
         },
-        "name": "200mmMessageBundle1Fid721",
-        "description": "Multi notifikasjon om tjeneste for bruker fid 04067359721 - melding nivå 1",
+        "name": "200mmMessageBundle1FidsX2",
+        "description": "Multi notifikasjon om tjeneste for bruker 2 fids - melding nivå 1",
         "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"
       },
       {
@@ -551,10 +551,10 @@
           }
         ],
         "reference": {
-          "reference": "Organization/202XPRmunicipalityOrganizationFid721"
+          "reference": "Organization/202XPRmunicipalityOrganizationFidX2"
         },
-        "name": "202XPRmunicipalityOrganizationFid721",
-        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820721 - organisasjonsdetaljer nivå 2",
+        "name": "202XPRmunicipalityOrganizationFidX2",
+        "description": "Multi-notifikasjon org kontakter om tjeneste for bruker 2 fids - organisasjonsdetaljer nivå 2",
         "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune"
       },
       {
@@ -624,7 +624,7 @@
           "reference": "Encounter/230mmTjenesteFid652"
         },
         "name": "230mmTjenesteFid652",
-        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820652 - payload midlertidigStoppTil",
+        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820652 - payload tjenesteStart",
         "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"
       },
       {

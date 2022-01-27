@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "KPR_MM_IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-01-27T08:52:04+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-27T09:20:32+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -537,11 +537,11 @@
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/Bundle/200mmMessageBundle1Fid721>;
-         fhir:Reference.reference [ fhir:value "Bundle/200mmMessageBundle1Fid721" ]
+         fhir:link <http://hddr.no/Bundle/200mmMessageBundle1FidsX2>;
+         fhir:Reference.reference [ fhir:value "Bundle/200mmMessageBundle1FidsX2" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "200mmMessageBundle1Fid721" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Multi notifikasjon om tjeneste for bruker fid 04067359721 - melding nivå 1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "200mmMessageBundle1FidsX2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Multi notifikasjon om tjeneste for bruker 2 fids - melding nivå 1" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1";
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1>
@@ -554,11 +554,11 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hddr.no/Organization/202XPRmunicipalityOrganizationFid721>;
-         fhir:Reference.reference [ fhir:value "Organization/202XPRmunicipalityOrganizationFid721" ]
+         fhir:link <http://hddr.no/Organization/202XPRmunicipalityOrganizationFidX2>;
+         fhir:Reference.reference [ fhir:value "Organization/202XPRmunicipalityOrganizationFidX2" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "202XPRmunicipalityOrganizationFid721" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820721 - organisasjonsdetaljer nivå 2" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "202XPRmunicipalityOrganizationFidX2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Multi-notifikasjon org kontakter om tjeneste for bruker 2 fids - organisasjonsdetaljer nivå 2" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune";
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune>
@@ -637,7 +637,7 @@
          fhir:Reference.reference [ fhir:value "Encounter/230mmTjenesteFid652" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "230mmTjenesteFid652" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820652 - payload midlertidigStoppTil" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Enkelt notifikasjon om tjeneste for bruker fid 28077820652 - payload tjenesteStart" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste";
          fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste>

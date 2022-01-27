@@ -3,7 +3,7 @@
   "name": "KPR_MM_IG",
   "package-id": "fhir.kprmm",
   "ig-ver": "0.1.0",
-  "date": "Thu, 27 Jan, 2022 08:52:04 +0100",
+  "date": "Thu, 27 Jan, 2022 09:20:32 +0100",
   "errs": 38,
   "warnings": 35,
   "hints": 19,

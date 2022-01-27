@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="KPR_MM_IG"/>
   <status value="draft"/>
-  <date value="2022-01-27T08:52:04+01:00"/>
+  <date value="2022-01-27T09:20:32+01:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -376,10 +376,10 @@
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/200mmMessageBundle1Fid721"/>
+        <reference value="Bundle/200mmMessageBundle1FidsX2"/>
       </reference>
-      <name value="200mmMessageBundle1Fid721"/>
-      <description value="Multi notifikasjon om tjeneste for bruker fid 04067359721 - melding nivå 1"/>
+      <name value="200mmMessageBundle1FidsX2"/>
+      <description value="Multi notifikasjon om tjeneste for bruker 2 fids - melding nivå 1"/>
       <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"/>
     </resource>
     <resource>
@@ -387,10 +387,10 @@
         <valueString value="Organization"/>
       </extension>
       <reference>
-        <reference value="Organization/202XPRmunicipalityOrganizationFid721"/>
+        <reference value="Organization/202XPRmunicipalityOrganizationFidX2"/>
       </reference>
-      <name value="202XPRmunicipalityOrganizationFid721"/>
-      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820721 - organisasjonsdetaljer nivå 2"/>
+      <name value="202XPRmunicipalityOrganizationFidX2"/>
+      <description value="Multi-notifikasjon org kontakter om tjeneste for bruker 2 fids - organisasjonsdetaljer nivå 2"/>
       <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune"/>
     </resource>
     <resource>
@@ -445,7 +445,7 @@
         <reference value="Encounter/230mmTjenesteFid652"/>
       </reference>
       <name value="230mmTjenesteFid652"/>
-      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820652 - payload midlertidigStoppTil"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820652 - payload tjenesteStart"/>
       <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"/>
     </resource>
     <resource>

@@ -1,20 +1,20 @@
-Instance: 200mmMessageBundle1Fid721
+Instance: 200mmMessageBundle1FidsX2
 InstanceOf: KPRMiniMeldingBundle1
 Usage: #example
-Description: "Multi notifikasjon om tjeneste for bruker fid 04067359721 - melding nivå 1"
+Description: "Multi notifikasjon om tjeneste for bruker 2 fids - melding nivå 1"
 * meta.id = "748b-8352b637-480f-8454-9f3bb761e932" // messageId //
 * identifier.value = "676d9e02-ba31-40f4-7f40-7936e4ca01a0" // lokalident //
 * type = #message // interpret as "IPLOS" at the receiving server via meta-profile? //
 * identifier.value = "56.0.0" // versjon //
-* entry.resource = 201mmMessageHeaderFid721
+* entry.resource = 201mmMessageHeaderFidX2
 * entry.fullUrl = "http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1"
-* entry.resource = 202XPRmunicipalityOrganizationFid721
+* entry.resource = 202XPRmunicipalityOrganizationFidX2
 
 // level 1 message header //
-Instance: 201mmMessageHeaderFid721
+Instance: 201mmMessageHeaderFidX2
 InstanceOf: KPRMiniMeldingMessageHeader
 Usage: #inline
-Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820721 melding header nivå 1"
+Description: "Multi-notifikasjon message header om tjeneste for bruker 2 fids melding header nivå 1"
 * eventCoding = #K "Original"
 * destination.endpoint = "8139520" // toHerID //
 * source.name = "Bogisich, Yundt and Balistreri" // navnEPJ //
@@ -27,10 +27,10 @@ Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820721 melding
 * focus = Reference(220mmMessageBundle2Fid652) // references to second notification bundle //
 
 // org/kommmune and contact details //
-Instance: 202XPRmunicipalityOrganizationFid721
+Instance: 202XPRmunicipalityOrganizationFidX2
 InstanceOf: XPRmunicipalityOrganization
 Usage: #example
-Description: "Enkelt notifikasjon om tjeneste for bruker fid 28077820721 - organisasjonsdetaljer nivå 2"
+Description: "Multi-notifikasjon org kontakter om tjeneste for bruker 2 fids - organisasjonsdetaljer nivå 2"
 * identifier.system = "urn:oid:2.16.578.1.12.4.1.1.3403"
 * identifier.value = "1816" //kommuneNr//
 * contact[0].name.text = "Fredrik Jørgensen" //kontPerson//
