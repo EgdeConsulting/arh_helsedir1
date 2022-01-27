@@ -1,0 +1,55 @@
+{
+  "resourceType": "Bundle",
+  "id": "120mmMessageBundle2Fid638",
+  "meta": {
+    "profile": [
+      "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"
+    ]
+  },
+  "identifier": {
+    "value": "e86318da-b16b-5023-0e7a-d129b6835feb"
+  },
+  "type": "Message",
+  "timestamp": "2021-12-06T06:37:30.7379426+00:00",
+  "link": [
+    {
+      "relation": "previous",
+      "url": "http://hddr.no/kpr-mm-iplos-i-kpr-bundle2/00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "relation": "related",
+      "url": "http://hddr.no/kpr-mm-iplos-i-kpr-bundle2/00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1",
+      "resource": {
+        "resourceType": "MessageHeader",
+        "id": "121mmMessageHeader2Fid638",
+        "meta": {
+          "profile": [
+            "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"121mmMessageHeader2Fid638\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-kpr-mm-iplos-i-kpr-submission-header.html\">Mini melding Message Header til original innrapportering</a></p></div><p><b>event</b>: N (Details: [not stated] code N = 'N', stated as 'null')</p><h3>Sources</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>Johnston, Wilkinson and Kilback</td><td><code>8139519</code></td></tr></table><p><b>focus</b>: <a href=\"Encounter-130mmTjenesteFid638.html\">Encounter/130mmTjenesteFid638</a></p><p><b>definition</b>: <code>122mmMessageDefinitionFid638</code></p></div>"
+        },
+        "eventCoding": {
+          "code": "N"
+        },
+        "source": {
+          "name": "Johnston, Wilkinson and Kilback",
+          "endpoint": "8139519"
+        },
+        "focus": [
+          {
+            "reference": "Encounter/130mmTjenesteFid638"
+          }
+        ],
+        "definition": "122mmMessageDefinitionFid638"
+      }
+    }
+  ]
+}

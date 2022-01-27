@@ -1,0 +1,52 @@
+{
+  "resourceType": "Encounter",
+  "id": "230mmTjenesteFid652",
+  "meta": {
+    "profile": [
+      "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"230mmTjenesteFid652\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.html\">Mini melding tjeneste payload</a></p></div><p><b>identifier</b>: hendelseGUID: 677875f0-2012-6516-b575-16446c0ec4d9, tjenesteID: 2567</p><p><b>status</b>: arrived</p><p><b>class</b>: HH (Details: [not stated] code HH = 'HH', stated as 'null')</p><p><b>subject</b>: <a href=\"Patient-240XPRPatientFid652.html\">Patient/240XPRPatientFid652</a></p><h3>Participants</h3><table class=\"grid\"><tr><td>-</td><td><b>Period</b></td></tr><tr><td>*</td><td>2022-01-26T09:09:45.2738678Z --&gt; (ongoing)</td></tr></table><p><b>period</b>: 2022-01-26T03:02:11.8220311Z --&gt; (ongoing)</p></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "hendelseGUID"
+          }
+        ]
+      },
+      "value": "677875f0-2012-6516-b575-16446c0ec4d9"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "tjenesteID"
+          }
+        ]
+      },
+      "value": "2567"
+    }
+  ],
+  "status": "arrived",
+  "class": {
+    "code": "HH"
+  },
+  "subject": {
+    "reference": "Patient/240XPRPatientFid652"
+  },
+  "participant": [
+    {
+      "period": {
+        "start": "2022-01-26T09:09:45.2738678+00:00"
+      }
+    }
+  ],
+  "period": {
+    "start": "2022-01-26T03:02:11.8220311+00:00"
+  }
+}

@@ -1,0 +1,65 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hddr.no/Encounter/130mmTjenesteFid638> a fhir:Encounter;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "130mmTjenesteFid638"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste";
+       fhir:index 0;
+       fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"130mmTjenesteFid638\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.html\">Mini melding tjeneste payload</a></p></div><p><b>identifier</b>: hendelseGUID: aa88951c-0b23-62ad-022d-260650878388, tjenesteID: 1383</p><p><b>status</b>: planned</p><p><b>class</b>: HH (Details: [not stated] code HH = 'HH', stated as 'null')</p><p><b>subject</b>: <a href=\"Patient-140XPRPatientFid638.html\">Patient/140XPRPatientFid638</a></p><h3>Participants</h3><table class=\"grid\"><tr><td>-</td><td><b>Period</b></td></tr><tr><td>*</td><td>2021-12-05T16:31:15.9323956Z --&gt; (ongoing)</td></tr></table><p><b>period</b>: 2021-12-05T13:54:58.8866505Z --&gt; (ongoing)</p></div>"
+  ];
+  fhir:Encounter.identifier [
+     fhir:index 0;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "hendelseGUID" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "aa88951c-0b23-62ad-022d-260650878388" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "tjenesteID" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "1383" ]
+  ];
+  fhir:Encounter.status [ fhir:value "planned"];
+  fhir:Encounter.class [
+     fhir:Coding.code [ fhir:value "HH" ]
+  ];
+  fhir:Encounter.subject [
+     fhir:link <http://hddr.no/Patient/140XPRPatientFid638>;
+     fhir:Reference.reference [ fhir:value "Patient/140XPRPatientFid638" ]
+  ];
+  fhir:Encounter.participant [
+     fhir:index 0;
+     fhir:Encounter.participant.period [
+       fhir:Period.start [ fhir:value "2021-12-05T16:31:15.9323956+00:00"^^xsd:dateTime ]
+     ]
+  ];
+  fhir:Encounter.period [
+     fhir:Period.start [ fhir:value "2021-12-05T13:54:58.8866505+00:00"^^xsd:dateTime ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hddr.no/Encounter/130mmTjenesteFid638.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

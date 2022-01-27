@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="220mmMessageBundle2Fid652"/>
+  <meta>
+    <profile value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"/>
+  </meta>
+  <identifier>
+    <value value="fb19cda7-d15b-c38f-f39d-a00946fa563a"/>
+  </identifier>
+  <type value="Message"/>
+  <timestamp value="2022-01-26T05:32:52.8801236+00:00"/>
+  <link>
+    <relation value="previous"/>
+    <url value="http://hddr.no/kpr-mm-iplos-i-kpr-bundle2/00000000-0000-0000-0000-000000000000"/>
+  </link>
+  <link>
+    <relation value="related"/>
+    <url value="http://hddr.no/kpr-mm-iplos-i-kpr-bundle2/00000000-0000-0000-0000-000000000000"/>
+  </link>
+  <entry>
+    <fullUrl value="http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/2"/>
+    <resource>
+      <MessageHeader>
+        <id value="221mmMessageHeader2Fid652"/>
+        <meta>
+          <profile value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-submission-header"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "221mmMessageHeader2Fid652" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-kpr-mm-iplos-i-kpr-submission-header.html">Mini melding Message Header til original innrapportering</a></p></div><p><b>event</b>: N (Details: [not stated] code N = 'N', stated as 'null')</p><h3>Sources</h3><table class="grid"><tr><td>-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>Johnston, Wilkinson and Kilback</td><td><code>8139519</code></td></tr></table><p><b>focus</b>: <a href="Encounter-230mmTjenesteFid652.html">Encounter/230mmTjenesteFid652</a></p><p><b>definition</b>: <code>222mmMessageDefinitionFid652</code></p></div>
+        </text>
+        <eventCoding>
+          <code value="N"/>
+        </eventCoding>
+        <source>
+          <name value="Johnston, Wilkinson and Kilback"/>
+          <endpoint value="8139519"/>
+        </source>
+        <focus>
+          <reference value="Encounter/230mmTjenesteFid652"/>
+        </focus>
+        <definition value="222mmMessageDefinitionFid652"/>
+      </MessageHeader>
+    </resource>
+  </entry>
+</Bundle>

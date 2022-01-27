@@ -49,6 +49,9 @@
     ]
   },
   "usage": {
+    "http://hl7.no/fhir/StructureDefinition/no-basis-bydelsnummer": [
+      "Patient.address.district"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],

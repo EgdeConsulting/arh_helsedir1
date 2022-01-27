@@ -1,0 +1,88 @@
+{
+  "resourceType": "Bundle",
+  "id": "200mmMessageBundle1Fid721",
+  "meta": {
+    "id": "748b-8352b637-480f-8454-9f3bb761e932",
+    "profile": [
+      "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"
+    ]
+  },
+  "identifier": {
+    "value": "56.0.0"
+  },
+  "type": "message",
+  "entry": [
+    {
+      "fullUrl": "http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "202XPRmunicipalityOrganizationFid721",
+        "meta": {
+          "profile": [
+            "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"202XPRmunicipalityOrganizationFid721\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-kpr-mm-iplos-i-kpr-kommune.html\">KPR minimelding Kommune</a></p></div><p><b>identifier</b>: id: 1816</p><blockquote><p><b>contact</b></p><p><b>purpose</b>: 16 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#16)</span></p><p><b>name</b>: Fredrik Jørgensen</p><p><b>telecom</b>: <a href=\"tel:+4740957287\">+47 40 95 72 87</a>, <a href=\"mailto:Fredrik_Roed@gmail.com\">Fredrik_Roed@gmail.com</a>, <a href=\"mailto:Erik_Jacobsen53@hotmail.com\">Erik_Jacobsen53@hotmail.com</a></p></blockquote><blockquote><p><b>contact</b></p><p><b>purpose</b>: 17 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#17)</span></p><p><b>name</b>: Odd Ryan</p><p><b>telecom</b>: <a href=\"mailto:Malin37@gmail.com\">Malin37@gmail.com</a>, <a href=\"mailto:Ingrid_Arnesen94@yahoo.com\">Ingrid_Arnesen94@yahoo.com</a></p></blockquote></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.578.1.12.4.1.1.3403",
+            "value": "1816"
+          }
+        ],
+        "contact": [
+          {
+            "purpose": {
+              "coding": [
+                {
+                  "code": "16"
+                }
+              ]
+            },
+            "name": {
+              "text": "Fredrik Jørgensen"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+47 40 95 72 87"
+              },
+              {
+                "system": "email",
+                "value": "Fredrik_Roed@gmail.com"
+              },
+              {
+                "system": "email",
+                "value": "Erik_Jacobsen53@hotmail.com"
+              }
+            ]
+          },
+          {
+            "purpose": {
+              "coding": [
+                {
+                  "code": "17"
+                }
+              ]
+            },
+            "name": {
+              "text": "Odd Ryan"
+            },
+            "telecom": [
+              {
+                "system": "email",
+                "value": "Malin37@gmail.com"
+              },
+              {
+                "system": "email",
+                "value": "Ingrid_Arnesen94@yahoo.com"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

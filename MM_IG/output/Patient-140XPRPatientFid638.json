@@ -1,0 +1,42 @@
+{
+  "resourceType": "Patient",
+  "id": "140XPRPatientFid638",
+  "meta": {
+    "profile": [
+      "http://hddr.no//StructureDefinition/xpr-pasient"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"140XPRPatientFid638\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-xpr-pasient.html\">XPR bruker/pasient</a></p></div><p><b>identifier</b>: id: 538bad1b-6bb8-ec67-8f4e-27d4f430c087, id: 3397091298, id: unspecified</p><p><b>address</b>: </p></div>"
+  },
+  "identifier": [
+    {
+      "system": "EPJ",
+      "value": "538bad1b-6bb8-ec67-8f4e-27d4f430c087"
+    },
+    {
+      "system": "urn:oid:2.16.578.1.12.4.1.4.1",
+      "value": "3397091298"
+    },
+    {
+      "system": "urn:oid:2.16.578.1.12.4.1.4.1",
+      "value": "unspecified"
+    }
+  ],
+  "address": [
+    {
+      "_district": {
+        "extension": [
+          {
+            "url": "http://hl7.no/fhir/StructureDefinition/no-basis-bydelsnummer",
+            "valueCoding": {
+              "system": "urn:oid:2.16.578.1.12.4.1.1.3403",
+              "code": "7"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

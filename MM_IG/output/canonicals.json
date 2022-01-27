@@ -89,5 +89,23 @@
     "url": "http://hddr.no//StructureDefinition/xpr-pasient",
     "version": "0.1.0",
     "name": "XPRPatient"
+  },
+  {
+    "id": "122mmMessageDefinitionFid638",
+    "type": "MessageDefinition",
+    "url": "http://hddr.no/MessageDefinition/122mmMessageDefinitionFid638",
+    "version": "0.1.0"
+  },
+  {
+    "id": "222mmMessageDefinitionFid652",
+    "type": "MessageDefinition",
+    "url": "http://hddr.no/MessageDefinition/222mmMessageDefinitionFid652",
+    "version": "0.1.0"
+  },
+  {
+    "id": "222mmMessageDefinitionFid721",
+    "type": "MessageDefinition",
+    "url": "http://hddr.no/MessageDefinition/222mmMessageDefinitionFid721",
+    "version": "0.1.0"
   }
 ]

@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="KPR_MM_IG"/>
   <status value="draft"/>
-  <date value="2022-01-26T12:06:52+01:00"/>
+  <date value="2022-01-27T08:52:04+01:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -310,10 +310,98 @@
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/KPRminiMeldingMessageBundle2Example1"/>
+        <reference value="Bundle/100mmMessageBundle1Fid638"/>
       </reference>
-      <name value="KPRminiMeldingMessageBundle2Example1"/>
+      <name value="100mmMessageBundle1Fid638"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - melding nivå 1"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/111XPRmunicipalityOrganizationFid638"/>
+      </reference>
+      <name value="111XPRmunicipalityOrganizationFid638"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - organisasjonsdetaljer nivå 2"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/120mmMessageBundle2Fid638"/>
+      </reference>
+      <name value="120mmMessageBundle2Fid638"/>
       <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notifikasjon bundle nivå 2"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MessageDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MessageDefinition/122mmMessageDefinitionFid638"/>
+      </reference>
+      <name value="122mmMessageDefinitionFid638"/>
+      <description value="Provides the løpenummer"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/130mmTjenesteFid638"/>
+      </reference>
+      <name value="130mmTjenesteFid638"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - payload midlertidigStoppTil"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/140XPRPatientFid638"/>
+      </reference>
+      <name value="140XPRPatientFid638"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/xpr-pasient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/200mmMessageBundle1Fid721"/>
+      </reference>
+      <name value="200mmMessageBundle1Fid721"/>
+      <description value="Multi notifikasjon om tjeneste for bruker fid 04067359721 - melding nivå 1"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/202XPRmunicipalityOrganizationFid721"/>
+      </reference>
+      <name value="202XPRmunicipalityOrganizationFid721"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820721 - organisasjonsdetaljer nivå 2"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/220mmMessageBundle2Fid652"/>
+      </reference>
+      <name value="220mmMessageBundle2Fid652"/>
+      <description value="Multi notifikasjon om tjeneste for bruker fid 04067359652 - notifikasjon bundle nivå 2"/>
       <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"/>
     </resource>
     <resource>
@@ -321,11 +409,77 @@
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/minimeldingMessageBundle1Example1"/>
+        <reference value="Bundle/220mmMessageBundle2Fid721"/>
       </reference>
-      <name value="minimeldingMessageBundle1Example1"/>
-      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - melding nivå 1"/>
-      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"/>
+      <name value="220mmMessageBundle2Fid721"/>
+      <description value="Multi notifikasjon om tjeneste for bruker fid 04067359721 - notifikasjon bundle nivå 2"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MessageDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MessageDefinition/222mmMessageDefinitionFid652"/>
+      </reference>
+      <name value="222mmMessageDefinitionFid652"/>
+      <description value="Provides the løpenummer"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MessageDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MessageDefinition/222mmMessageDefinitionFid721"/>
+      </reference>
+      <name value="222mmMessageDefinitionFid721"/>
+      <description value="Provides the løpenummer"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/230mmTjenesteFid652"/>
+      </reference>
+      <name value="230mmTjenesteFid652"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820652 - payload midlertidigStoppTil"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/230mmTjenesteFid721"/>
+      </reference>
+      <name value="230mmTjenesteFid721"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820721 - payload midlertidigStoppTil"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/240XPRPatientFid652"/>
+      </reference>
+      <name value="240XPRPatientFid652"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820652"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/xpr-pasient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/240XPRPatientFid721"/>
+      </reference>
+      <name value="240XPRPatientFid721"/>
+      <description value="Enkelt notifikasjon om tjeneste for bruker fid 28077820721"/>
+      <exampleCanonical value="http://hddr.no//StructureDefinition/xpr-pasient"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

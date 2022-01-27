@@ -147,7 +147,6 @@ Title:  "Mini melding tjeneste payload"
 
 // org //
 Profile: KPRMiniMeldingServiceOrganization
-
 Parent:  Organization // https://fhir.simplifier.net/HL7Norwayno-basis/StructureDefinition/no-basis-Organization //http://hl7.no/fhir/StructureDefinition/no-basis-Organization//
 Id: kpr-mm-iplos-i-kpr-tjeneste-org
 Title: "KPR minimelding utøvende organisasjon"

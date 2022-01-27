@@ -1,0 +1,40 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hddr.no/MessageDefinition/222mmMessageDefinitionFid652> a fhir:MessageDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "222mmMessageDefinitionFid652"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"222mmMessageDefinitionFid652\" </p></div><p><b>url</b>: <code>http://hddr.no/MessageDefinition/222mmMessageDefinitionFid652</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: active</p><p><b>date</b>: 2021-12-06T06:37:30.7379426Z</p><p><b>jurisdiction</b>: Norway <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#NO)</span></p><p><b>event</b>: admin-notify (Details: http://hddr.no/ code admin-notify = 'admin-notify', stated as 'null')</p><p><b>category</b>: notification</p></div>"
+  ];
+  fhir:MessageDefinition.url [ fhir:value "http://hddr.no/MessageDefinition/222mmMessageDefinitionFid652"];
+  fhir:MessageDefinition.version [ fhir:value "0.1.0"];
+  fhir:MessageDefinition.status [ fhir:value "active"];
+  fhir:MessageDefinition.date [ fhir:value "2021-12-06T06:37:30.7379426+00:00"^^xsd:dateTime];
+  fhir:MessageDefinition.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
+  fhir:MessageDefinition.eventCoding [
+     fhir:Coding.system [ fhir:value "http://hddr.no/" ];
+     fhir:Coding.code [ fhir:value "admin-notify" ]
+  ];
+  fhir:MessageDefinition.category [ fhir:value "notification"] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hddr.no/MessageDefinition/222mmMessageDefinitionFid652.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

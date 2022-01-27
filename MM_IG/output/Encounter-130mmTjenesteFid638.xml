@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="130mmTjenesteFid638"/>
+  <meta>
+    <profile value="http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "130mmTjenesteFid638" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.html">Mini melding tjeneste payload</a></p></div><p><b>identifier</b>: hendelseGUID: aa88951c-0b23-62ad-022d-260650878388, tjenesteID: 1383</p><p><b>status</b>: planned</p><p><b>class</b>: HH (Details: [not stated] code HH = 'HH', stated as 'null')</p><p><b>subject</b>: <a href="Patient-140XPRPatientFid638.html">Patient/140XPRPatientFid638</a></p><h3>Participants</h3><table class="grid"><tr><td>-</td><td><b>Period</b></td></tr><tr><td>*</td><td>2021-12-05T16:31:15.9323956Z --&gt; (ongoing)</td></tr></table><p><b>period</b>: 2021-12-05T13:54:58.8866505Z --&gt; (ongoing)</p></div>
+  </text>
+  <identifier>
+    <type>
+      <coding>
+        <code value="hendelseGUID"/>
+      </coding>
+    </type>
+    <value value="aa88951c-0b23-62ad-022d-260650878388"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <code value="tjenesteID"/>
+      </coding>
+    </type>
+    <value value="1383"/>
+  </identifier>
+  <status value="planned"/>
+  <class>
+    <code value="HH"/>
+  </class>
+  <subject>
+    <reference value="Patient/140XPRPatientFid638"/>
+  </subject>
+  <participant>
+    <period>
+      <start value="2021-12-05T16:31:15.9323956+00:00"/>
+    </period>
+  </participant>
+  <period>
+    <start value="2021-12-05T13:54:58.8866505+00:00"/>
+  </period>
+</Encounter>

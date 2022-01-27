@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="240XPRPatientFid652"/>
+  <meta>
+    <profile value="http://hddr.no//StructureDefinition/xpr-pasient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "240XPRPatientFid652" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-xpr-pasient.html">XPR bruker/pasient</a></p></div><p><b>identifier</b>: id: 10cb070c-7369-29e2-583f-8557c780c2f6, id: 16096055652, id: unspecified</p><p><b>address</b>: </p></div>
+  </text>
+  <identifier>
+    <system value="EPJ"/>
+    <value value="10cb070c-7369-29e2-583f-8557c780c2f6"/>
+  </identifier>
+  <identifier>
+    <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+    <value value="16096055652"/>
+  </identifier>
+  <identifier>
+    <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+    <value value="unspecified"/>
+  </identifier>
+  <address>
+    <district>
+      <extension url="http://hl7.no/fhir/StructureDefinition/no-basis-bydelsnummer">
+        <valueCoding>
+          <system value="urn:oid:2.16.578.1.12.4.1.1.3403"/>
+          <code value="1986"/>
+        </valueCoding>
+      </extension>
+    </district>
+  </address>
+</Patient>

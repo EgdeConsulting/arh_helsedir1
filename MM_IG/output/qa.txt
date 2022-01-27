@@ -1,40 +1,123 @@
 ﻿KPR_MM_IG : Validation Results
 =========================================
 
-err = 15, warn = 16, info = 5
+err = 38, warn = 35, info = 19
 IG Publisher Version: 1.1.97 Out of date - current version is ?pub-ver-1?
-Generated Wed Jan 26 12:07:36 CET 2022. FHIR version 4.0.1 for fhir.kprmm#0.1.0 (canonical = http://hddr.no/)
- Build Errors : 117 / 0 / 0
+Generated Thu Jan 27 08:52:54 CET 2022. FHIR version 4.0.1 for fhir.kprmm#0.1.0 (canonical = http://hddr.no/)
+ Build Errors : 186 / 0 / 0
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/ImplementationGuide-fhir.kprmm : 1 / 0 / 1
- /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-KPRminiMeldingMessageBundle2Example1 : 4 / 1 / 3
- /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-minimeldingMessageBundle1Example1 : 4 / 1 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-100mmMessageBundle1Fid638 : 2 / 2 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-120mmMessageBundle2Fid638 : 3 / 1 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-200mmMessageBundle1Fid721 : 2 / 2 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-220mmMessageBundle2Fid652 : 3 / 1 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/bundle-220mmMessageBundle2Fid721 : 3 / 1 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/encounter-130mmTjenesteFid638 : 4 / 3 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/encounter-230mmTjenesteFid652 : 4 / 3 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/encounter-230mmTjenesteFid721 : 4 / 3 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/messagedefinition-122mmMessageDefinitionFid638 : 0 / 1 / 2
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/messagedefinition-222mmMessageDefinitionFid652 : 0 / 1 / 2
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/messagedefinition-222mmMessageDefinitionFid721 : 0 / 1 / 2
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/organization-111XPRmunicipalityOrganizationFid638 : 0 / 2 / 1
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/organization-202XPRmunicipalityOrganizationFid721 : 0 / 2 / 1
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/patient-140XPRPatientFid638 : 2 / 0 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/patient-240XPRPatientFid652 : 2 / 0 / 3
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/patient-240XPRPatientFid721 : 2 / 0 / 3
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-bundle1 : 0 / 0 / 1
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-bundle2 : 0 / 0 / 1
- /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-common-header : 0 / 0 / 3
- /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-kommune : 0 / 1 / 1
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-common-header : 0 / 1 / 2
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-kommune : 0 / 0 / 1
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-replace-header : 1 / 1 / 2
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-submission-header : 1 / 0 / 3
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-supplement-header : 1 / 2 / 1
- /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-tjeneste : 0 / 3 / 1
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-tjeneste : 0 / 2 / 1
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-tjeneste-org : 0 / 1 / 1
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-kpr-mm-iplos-i-kpr-void-header : 1 / 2 / 1
  /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-no-basis-urban-district : 0 / 3 / 1
- /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-xpr-pasient : 0 / 1 / 1
+ /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/structuredefinition-xpr-pasient : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-KPRminiMeldingMessageBundle2Example1.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-KPRminiMeldingMessageBundle2Example1.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-KPRminiMeldingMessageBundle2Example1.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-KPRminiMeldingMessageBundle2Example1.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-KPRminiMeldingMessageBundle2Example1.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-minimeldingMessageBundle1Example1.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-minimeldingMessageBundle1Example1.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 157, column 1027: The link 'XPRmunicipalityOrganizationExample1' for "XPRmunicipalityOrganizationExample1" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-minimeldingMessageBundle1Example1.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-minimeldingMessageBundle1Example1.json.html#/html/body/div/div/div/p/a at Line 246, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-minimeldingMessageBundle1Example1.ttl.html#/html/body/div/div/div/p/a at Line 258, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-minimeldingMessageBundle1Example1.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-100mmMessageBundle1Fid638.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-100mmMessageBundle1Fid638.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-100mmMessageBundle1Fid638.json.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-100mmMessageBundle1Fid638.ttl.html#/html/body/div/div/div/p/a at Line 274, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-100mmMessageBundle1Fid638.xml.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-120mmMessageBundle2Fid638.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-120mmMessageBundle2Fid638.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-120mmMessageBundle2Fid638.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-120mmMessageBundle2Fid638.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-120mmMessageBundle2Fid638.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1Fid721.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1Fid721.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1Fid721.json.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1Fid721.ttl.html#/html/body/div/div/div/p/a at Line 274, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-200mmMessageBundle1Fid721.xml.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid652.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid652.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid652.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid652.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid652.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid721.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid721.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid721.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid721.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Bundle-220mmMessageBundle2Fid721.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-130mmTjenesteFid638.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-130mmTjenesteFid638.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-130mmTjenesteFid638.json.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-130mmTjenesteFid638.ttl.html#/html/body/div/div/div/p/a at Line 246, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-130mmTjenesteFid638.xml.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-230mmTjenesteFid652.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-230mmTjenesteFid652.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-230mmTjenesteFid652.json.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-230mmTjenesteFid652.ttl.html#/html/body/div/div/div/p/a at Line 246, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-230mmTjenesteFid652.xml.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-230mmTjenesteFid721.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-230mmTjenesteFid721.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-230mmTjenesteFid721.json.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-230mmTjenesteFid721.ttl.html#/html/body/div/div/div/p/a at Line 246, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Encounter-230mmTjenesteFid721.xml.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-122mmMessageDefinitionFid638.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-122mmMessageDefinitionFid638.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-122mmMessageDefinitionFid638.json.html#/html/body/div/div/div/p/a at Line 216, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-122mmMessageDefinitionFid638.ttl.html#/html/body/div/div/div/p/a at Line 227, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-122mmMessageDefinitionFid638.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-222mmMessageDefinitionFid652.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-222mmMessageDefinitionFid652.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-222mmMessageDefinitionFid652.json.html#/html/body/div/div/div/p/a at Line 216, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-222mmMessageDefinitionFid652.ttl.html#/html/body/div/div/div/p/a at Line 227, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-222mmMessageDefinitionFid652.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-222mmMessageDefinitionFid721.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-222mmMessageDefinitionFid721.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-222mmMessageDefinitionFid721.json.html#/html/body/div/div/div/p/a at Line 216, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-222mmMessageDefinitionFid721.ttl.html#/html/body/div/div/div/p/a at Line 227, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/MessageDefinition-222mmMessageDefinitionFid721.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-111XPRmunicipalityOrganizationFid638.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-111XPRmunicipalityOrganizationFid638.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-111XPRmunicipalityOrganizationFid638.json.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-111XPRmunicipalityOrganizationFid638.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-111XPRmunicipalityOrganizationFid638.xml.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFid721.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFid721.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFid721.json.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFid721.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Organization-202XPRmunicipalityOrganizationFid721.xml.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-140XPRPatientFid638.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-140XPRPatientFid638.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-140XPRPatientFid638.json.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-140XPRPatientFid638.ttl.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-140XPRPatientFid638.xml.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-240XPRPatientFid652.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-240XPRPatientFid652.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-240XPRPatientFid652.json.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-240XPRPatientFid652.ttl.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-240XPRPatientFid652.xml.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-240XPRPatientFid721.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-240XPRPatientFid721.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-240XPRPatientFid721.json.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-240XPRPatientFid721.ttl.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/Patient-240XPRPatientFid721.xml.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle1-definitions.html#/html/body/div/div/div/p/a at Line 680, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle1-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle1-examples.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle1-mappings.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle1.html#/html/body/div/div/div/p/a at Line 755, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle1.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
@@ -42,7 +125,7 @@ ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle1.profile.ttl.html#/html/body/div/div/div/p/a at Line 1970, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle1.profile.xml.html#/html/body/div/div/div/p/a at Line 2007, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle2-definitions.html#/html/body/div/div/div/p/a at Line 681, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle2-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle2-examples.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle2-mappings.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle2.html#/html/body/div/div/div/p/a at Line 757, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-bundle2.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
@@ -57,14 +140,14 @@ ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-common-header.profile.json.html#/html/body/div/div/div/p/a at Line 2668, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-common-header.profile.ttl.html#/html/body/div/div/div/p/a at Line 2354, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-common-header.profile.xml.html#/html/body/div/div/div/p/a at Line 2405, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune-definitions.html#/html/body/div/div/div/p/a at Line 587, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune-mappings.html#/html/body/div/div/div/p/a at Line 308, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.html#/html/body/div/div/div/p/a at Line 661, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.json.html#/html/body/div/div/div/p/a at Line 1948, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.ttl.html#/html/body/div/div/div/p/a at Line 1723, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.xml.html#/html/body/div/div/div/p/a at Line 1767, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune-definitions.html#/html/body/div/div/div/p/a at Line 597, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune-examples.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune-mappings.html#/html/body/div/div/div/p/a at Line 318, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.html#/html/body/div/div/div/p/a at Line 671, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.json.html#/html/body/div/div/div/p/a at Line 1958, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.ttl.html#/html/body/div/div/div/p/a at Line 1733, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.profile.xml.html#/html/body/div/div/div/p/a at Line 1777, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-replace-header-definitions.html#/html/body/div/div/div/p/a at Line 678, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-replace-header-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-replace-header-mappings.html#/html/body/div/div/div/p/a at Line 315, column 28: The link '' for "" cannot be resolved
@@ -89,9 +172,9 @@ ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-supplement-header.profile.json.html#/html/body/div/div/div/p/a at Line 2358, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-supplement-header.profile.ttl.html#/html/body/div/div/div/p/a at Line 2098, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-supplement-header.profile.xml.html#/html/body/div/div/div/p/a at Line 2138, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-definitions.html#/html/body/div/div/div/p/a at Line 1006, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-mappings.html#/html/body/div/div/div/p/a at Line 403, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-definitions.html#/html/body/div/div/div/p/a at Line 1016, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-examples.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-mappings.html#/html/body/div/div/div/p/a at Line 413, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-org-definitions.html#/html/body/div/div/div/p/a at Line 501, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-org-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-org-mappings.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
@@ -100,11 +183,11 @@ ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-org.profile.json.html#/html/body/div/div/div/p/a at Line 1532, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-org.profile.ttl.html#/html/body/div/div/div/p/a at Line 1378, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-org.profile.xml.html#/html/body/div/div/div/p/a at Line 1403, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.html#/html/body/div/div/div/div/div/table/tr/td/span/div/div/div/p/a at Line 994, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.profile.json.html#/html/body/div/div/div/p/a at Line 4268, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.profile.ttl.html#/html/body/div/div/div/p/a at Line 3728, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.profile.xml.html#/html/body/div/div/div/p/a at Line 3747, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.html#/html/body/div/div/div/div/div/table/tr/td/span/div/div/div/p/a at Line 1004, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.profile.json.html#/html/body/div/div/div/p/a at Line 4278, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.profile.ttl.html#/html/body/div/div/div/p/a at Line 3738, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.profile.xml.html#/html/body/div/div/div/p/a at Line 3757, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-void-header-definitions.html#/html/body/div/div/div/p/a at Line 678, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-void-header-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-kpr-mm-iplos-i-kpr-void-header-mappings.html#/html/body/div/div/div/p/a at Line 315, column 28: The link '' for "" cannot be resolved
@@ -125,15 +208,15 @@ ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-no-bas
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-no-basis-urban-district.profile.json.html#/html/body/div/div/div/p/a at Line 552, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-no-basis-urban-district.profile.ttl.html#/html/body/div/div/div/p/a at Line 529, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-no-basis-urban-district.profile.xml.html#/html/body/div/div/div/p/a at Line 505, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient-definitions.html#/html/body/div/div/div/p/a at Line 1220, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient-mappings.html#/html/body/div/div/div/p/a at Line 435, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient.html#/html/body/div/div/div/p/a at Line 1105, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient.profile.json.html#/html/body/div/div/div/p/a at Line 4954, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient.profile.ttl.html#/html/body/div/div/div/p/a at Line 4242, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient.profile.xml.html#/html/body/div/div/div/p/a at Line 4483, column 28: The link '' for "" cannot be resolved
-ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/artifacts.html#/html/body/div/div/div/p/a at Line 321, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient-definitions.html#/html/body/div/div/div/p/a at Line 1230, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient-examples.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient-mappings.html#/html/body/div/div/div/p/a at Line 445, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient.html#/html/body/div/div/div/p/a at Line 1115, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient.profile.json.html#/html/body/div/div/div/p/a at Line 4964, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient.profile.ttl.html#/html/body/div/div/div/p/a at Line 4252, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/StructureDefinition-xpr-pasient.profile.xml.html#/html/body/div/div/div/p/a at Line 4493, column 28: The link '' for "" cannot be resolved
+ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/artifacts.html#/html/body/div/div/div/p/a at Line 447, column 28: The link '' for "" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/index.html#/html/body/div/div/div/div/div/h1/a at Line 127, column 144: The link '/arh_helsedir1/' for "Return to top level" cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/index.html#/html/body/div/div/div/div/div/p/img at Line 156, column 2: The image source '../assets/images/MinimeldingStructure.png' cannot be resolved
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/index.html#/html/body/div/div/div/div/div/p/img at Line 181, column 2: The image source '../assets/images/MinimeldingModel1.png' cannot be resolved
@@ -141,25 +224,97 @@ ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/index.html#/html/body/div/
 ERROR: /Users/andyharrison/arh_helsedir1/MM_IG/output/toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-fhir.kprmm.json ==
 ERROR: ImplementationGuide.where(url = 'http://hddr.no//ImplementationGuide/fhir.kprmm'): Conformance resource /Users/andyharrison/arh_helsedir1/MM_IG/fsh-generated/resources/ImplementationGuide-fhir.kprmm.json - the canonical URL (http://hddr.no/ImplementationGuide/fhir.kprmm) does not match the URL (http://hddr.no//ImplementationGuide/fhir.kprmm)
-== fsh-generated/resources/Bundle-KPRminiMeldingMessageBundle2Example1.json ==
+== fsh-generated/resources/Bundle-100mmMessageBundle1Fid638.json ==
+ERROR: Bundle/100mmMessageBundle1Fid638: Bundle: bdl-12: 'A message must have a MessageHeader as the first resource' Rule 'A message must have a MessageHeader as the first resource' Failed
+WARNING: Bundle/100mmMessageBundle1Fid638: Bundle.entry[0].resource.ofType(Organization).contact[0].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Bundle/100mmMessageBundle1Fid638: Bundle.entry[0].resource.ofType(Organization).contact[1].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Bundle/100mmMessageBundle1Fid638: Bundle.entry[1].resource: The first entry in a message must be a MessageHeader
+== fsh-generated/resources/Bundle-120mmMessageBundle2Fid638.json ==
 ERROR: Bundle.entry[0].resource: Unrecognised property '@eventUri'
-ERROR: Bundle/KPRminiMeldingMessageBundle2Example1: Bundle.type: The value provided ('Message') is not in the value set 'BundleType' (http://hl7.org/fhir/ValueSet/bundle-type|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/bundle-type#Message in http://hl7.org/fhir/bundle-type)
-WARNING: Bundle/KPRminiMeldingMessageBundle2Example1: Bundle.entry[0].resource.ofType(MessageHeader).event.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-ERROR: Bundle/KPRminiMeldingMessageBundle2Example1: Bundle.entry[0].resource.ofType(MessageHeader).focus[0]: Unable to resolve resource 'Encounter/KPRMiniMeldingTjenesteExample1'
-ERROR: Bundle/KPRminiMeldingMessageBundle2Example1: Bundle.entry[0].resource.ofType(MessageHeader).definition: Canonical URLs must be absolute URLs if they are not fragment references (minimeldingMessageDefinitionExample1)
-== fsh-generated/resources/Bundle-minimeldingMessageBundle1Example1.json ==
-WARNING: Bundle/minimeldingMessageBundle1Example1: Bundle.entry[0].resource.ofType(MessageHeader).event.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-ERROR: Bundle/minimeldingMessageBundle1Example1: Bundle.entry[0].resource.ofType(MessageHeader).sender: Relative URLs must be of the format [ResourceName]/[id].  Encountered XPRmunicipalityOrganizationExample1
-ERROR: Bundle/minimeldingMessageBundle1Example1: Bundle.entry[0].resource.ofType(MessageHeader).sender: Unable to resolve resource 'XPRmunicipalityOrganizationExample1'
-ERROR: Bundle/minimeldingMessageBundle1Example1: Bundle.entry[0].resource.ofType(MessageHeader).source.contact: cpt-2: 'A system is required if a value is provided.' Rule 'A system is required if a value is provided.' Failed
-ERROR: Bundle/minimeldingMessageBundle1Example1: Bundle.entry[1].resource.focus[0].reference: Can't find 'Bundle/KPRminiMeldingMessageBundle2Example1' in the bundle (MessageHeader Data)
+ERROR: Bundle/120mmMessageBundle2Fid638: Bundle.type: The value provided ('Message') is not in the value set 'BundleType' (http://hl7.org/fhir/ValueSet/bundle-type|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/bundle-type#Message in http://hl7.org/fhir/bundle-type)
+WARNING: Bundle/120mmMessageBundle2Fid638: Bundle.entry[0].resource.ofType(MessageHeader).event.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+ERROR: Bundle/120mmMessageBundle2Fid638: Bundle.entry[0].resource.ofType(MessageHeader).definition: Canonical URLs must be absolute URLs if they are not fragment references (122mmMessageDefinitionFid638)
+== fsh-generated/resources/Bundle-200mmMessageBundle1Fid721.json ==
+ERROR: Bundle/200mmMessageBundle1Fid721: Bundle: bdl-12: 'A message must have a MessageHeader as the first resource' Rule 'A message must have a MessageHeader as the first resource' Failed
+WARNING: Bundle/200mmMessageBundle1Fid721: Bundle.entry[0].resource.ofType(Organization).contact[0].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Bundle/200mmMessageBundle1Fid721: Bundle.entry[0].resource.ofType(Organization).contact[1].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Bundle/200mmMessageBundle1Fid721: Bundle.entry[1].resource: The first entry in a message must be a MessageHeader
+== fsh-generated/resources/Bundle-220mmMessageBundle2Fid652.json ==
+ERROR: Bundle.entry[0].resource: Unrecognised property '@eventUri'
+ERROR: Bundle/220mmMessageBundle2Fid652: Bundle.type: The value provided ('Message') is not in the value set 'BundleType' (http://hl7.org/fhir/ValueSet/bundle-type|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/bundle-type#Message in http://hl7.org/fhir/bundle-type)
+WARNING: Bundle/220mmMessageBundle2Fid652: Bundle.entry[0].resource.ofType(MessageHeader).event.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+ERROR: Bundle/220mmMessageBundle2Fid652: Bundle.entry[0].resource.ofType(MessageHeader).definition: Canonical URLs must be absolute URLs if they are not fragment references (222mmMessageDefinitionFid652)
+== fsh-generated/resources/Bundle-220mmMessageBundle2Fid721.json ==
+ERROR: Bundle.entry[0].resource: Unrecognised property '@eventUri'
+ERROR: Bundle/220mmMessageBundle2Fid721: Bundle.type: The value provided ('Message') is not in the value set 'BundleType' (http://hl7.org/fhir/ValueSet/bundle-type|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/bundle-type#Message in http://hl7.org/fhir/bundle-type)
+WARNING: Bundle/220mmMessageBundle2Fid721: Bundle.entry[0].resource.ofType(MessageHeader).event.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+ERROR: Bundle/220mmMessageBundle2Fid721: Bundle.entry[0].resource.ofType(MessageHeader).definition: Canonical URLs must be absolute URLs if they are not fragment references (222mmMessageDefinitionFid721)
+== fsh-generated/resources/Encounter-130mmTjenesteFid638.json ==
+ERROR: Encounter/130mmTjenesteFid638: Encounter.identifier[0]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:hendelseGUID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Encounter/130mmTjenesteFid638: Encounter.identifier[1]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:hendelseGUID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Encounter/130mmTjenesteFid638: Encounter.identifier[0]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:tjenesteID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Encounter/130mmTjenesteFid638: Encounter.identifier[1]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:tjenesteID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+INFORMATION: Encounter/130mmTjenesteFid638: Encounter: Encounter.identifier:hendelseGUID: Unable to check minimum required (Encounter.identifier) due to lack of slicing validation (from http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste)
+INFORMATION: Encounter/130mmTjenesteFid638: Encounter: Encounter.identifier:tjenesteID: Unable to check minimum required (Encounter.identifier) due to lack of slicing validation (from http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste)
+WARNING: Encounter/130mmTjenesteFid638: Encounter.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Encounter/130mmTjenesteFid638: Encounter.identifier[1].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Encounter/130mmTjenesteFid638: Encounter.class: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Encounter-230mmTjenesteFid652.json ==
+ERROR: Encounter/230mmTjenesteFid652: Encounter.identifier[0]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:hendelseGUID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Encounter/230mmTjenesteFid652: Encounter.identifier[1]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:hendelseGUID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Encounter/230mmTjenesteFid652: Encounter.identifier[0]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:tjenesteID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Encounter/230mmTjenesteFid652: Encounter.identifier[1]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:tjenesteID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+INFORMATION: Encounter/230mmTjenesteFid652: Encounter: Encounter.identifier:hendelseGUID: Unable to check minimum required (Encounter.identifier) due to lack of slicing validation (from http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste)
+INFORMATION: Encounter/230mmTjenesteFid652: Encounter: Encounter.identifier:tjenesteID: Unable to check minimum required (Encounter.identifier) due to lack of slicing validation (from http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste)
+WARNING: Encounter/230mmTjenesteFid652: Encounter.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Encounter/230mmTjenesteFid652: Encounter.identifier[1].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Encounter/230mmTjenesteFid652: Encounter.class: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Encounter-230mmTjenesteFid721.json ==
+ERROR: Encounter/230mmTjenesteFid721: Encounter.identifier[0]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:hendelseGUID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Encounter/230mmTjenesteFid721: Encounter.identifier[1]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:hendelseGUID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Encounter/230mmTjenesteFid721: Encounter.identifier[0]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:tjenesteID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Encounter/230mmTjenesteFid721: Encounter.identifier[1]: Slicing cannot be evaluated: Could not match discriminator ([system]) for slice Encounter.identifier:tjenesteID in profile http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste - the discriminator [system] does not have fixed value, binding or existence assertions
+INFORMATION: Encounter/230mmTjenesteFid721: Encounter: Encounter.identifier:hendelseGUID: Unable to check minimum required (Encounter.identifier) due to lack of slicing validation (from http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste)
+INFORMATION: Encounter/230mmTjenesteFid721: Encounter: Encounter.identifier:tjenesteID: Unable to check minimum required (Encounter.identifier) due to lack of slicing validation (from http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste)
+WARNING: Encounter/230mmTjenesteFid721: Encounter.identifier[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Encounter/230mmTjenesteFid721: Encounter.identifier[1].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Encounter/230mmTjenesteFid721: Encounter.class: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/MessageDefinition-122mmMessageDefinitionFid638.json ==
+WARNING: MessageDefinition/122mmMessageDefinitionFid638: MessageDefinition: msd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: MessageDefinition/122mmMessageDefinitionFid638: MessageDefinition.event.ofType(Coding): Code System URI 'http://hddr.no/' is unknown so the code cannot be validated
+== fsh-generated/resources/MessageDefinition-222mmMessageDefinitionFid652.json ==
+WARNING: MessageDefinition/222mmMessageDefinitionFid652: MessageDefinition: msd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: MessageDefinition/222mmMessageDefinitionFid652: MessageDefinition.event.ofType(Coding): Code System URI 'http://hddr.no/' is unknown so the code cannot be validated
+== fsh-generated/resources/MessageDefinition-222mmMessageDefinitionFid721.json ==
+WARNING: MessageDefinition/222mmMessageDefinitionFid721: MessageDefinition: msd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: MessageDefinition/222mmMessageDefinitionFid721: MessageDefinition.event.ofType(Coding): Code System URI 'http://hddr.no/' is unknown so the code cannot be validated
+== fsh-generated/resources/Organization-111XPRmunicipalityOrganizationFid638.json ==
+WARNING: Organization/111XPRmunicipalityOrganizationFid638: Organization.contact[0].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Organization/111XPRmunicipalityOrganizationFid638: Organization.contact[1].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Organization-202XPRmunicipalityOrganizationFid721.json ==
+WARNING: Organization/202XPRmunicipalityOrganizationFid721: Organization.contact[0].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Organization/202XPRmunicipalityOrganizationFid721: Organization.contact[1].purpose.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Patient-140XPRPatientFid638.json ==
+INFORMATION: Patient/140XPRPatientFid638: Patient.identifier[0]: This element does not match any known slice defined in the profile http://hddr.no//StructureDefinition/xpr-pasient
+ERROR: Patient/140XPRPatientFid638: Patient.identifier[0]: Identifier.system must be an absolute reference, not a local reference
+ERROR: Patient/140XPRPatientFid638: Patient.address[0].district.extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-bydelsnummer is unknown, and not allowed here
+INFORMATION: Patient/140XPRPatientFid638: Patient.address[0].district.extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3403' is unknown so the code cannot be validated
+== fsh-generated/resources/Patient-240XPRPatientFid652.json ==
+INFORMATION: Patient/240XPRPatientFid652: Patient.identifier[0]: This element does not match any known slice defined in the profile http://hddr.no//StructureDefinition/xpr-pasient
+ERROR: Patient/240XPRPatientFid652: Patient.identifier[0]: Identifier.system must be an absolute reference, not a local reference
+ERROR: Patient/240XPRPatientFid652: Patient.address[0].district.extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-bydelsnummer is unknown, and not allowed here
+INFORMATION: Patient/240XPRPatientFid652: Patient.address[0].district.extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3403' is unknown so the code cannot be validated
+== fsh-generated/resources/Patient-240XPRPatientFid721.json ==
+INFORMATION: Patient/240XPRPatientFid721: Patient.identifier[0]: This element does not match any known slice defined in the profile http://hddr.no//StructureDefinition/xpr-pasient
+ERROR: Patient/240XPRPatientFid721: Patient.identifier[0]: Identifier.system must be an absolute reference, not a local reference
+ERROR: Patient/240XPRPatientFid721: Patient.address[0].district.extension[0]: The extension http://hl7.no/fhir/StructureDefinition/no-basis-bydelsnummer is unknown, and not allowed here
+INFORMATION: Patient/240XPRPatientFid721: Patient.address[0].district.extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3403' is unknown so the code cannot be validated
 == fsh-generated/resources/StructureDefinition-kpr-mm-iplos-i-kpr-bundle1.json ==
 == fsh-generated/resources/StructureDefinition-kpr-mm-iplos-i-kpr-bundle2.json ==
 == fsh-generated/resources/StructureDefinition-kpr-mm-iplos-i-kpr-common-header.json ==
 INFORMATION: StructureDefinition/kpr-mm-iplos-i-kpr-common-header: StructureDefinition.differential.element[1].code[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7371' is unknown so the code cannot be validated
-INFORMATION: StructureDefinition.where(url = 'http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-common-header'): The Implementation Guide contains no explicitly linked examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-common-header'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-kpr-mm-iplos-i-kpr-kommune.json ==
-WARNING: StructureDefinition.where(url = 'http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-kpr-mm-iplos-i-kpr-replace-header.json ==
 ERROR: StructureDefinition.where(url = 'http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-replace-header'): The element MessageHeader.eventUri is out of order (and maybe others after it)
 INFORMATION: StructureDefinition/kpr-mm-iplos-i-kpr-replace-header: StructureDefinition.differential.element[1].code[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7316' is unknown so the code cannot be validated
@@ -175,7 +330,6 @@ WARNING: StructureDefinition.where(url = 'http://hddr.no//StructureDefinition/kp
 == fsh-generated/resources/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.json ==
 WARNING: StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste: StructureDefinition.snapshot.element[19].pattern.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 WARNING: StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste: StructureDefinition.differential.element[4].pattern.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: StructureDefinition.where(url = 'http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste-org.json ==
 WARNING: StructureDefinition.where(url = 'http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste-org'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-kpr-mm-iplos-i-kpr-void-header.json ==
@@ -187,4 +341,3 @@ WARNING: StructureDefinition/no-basis-urban-district: StructureDefinition.differ
 WARNING: StructureDefinition/no-basis-urban-district: StructureDefinition.snapshot.element[4].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3403 on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition.where(url = 'http://hddr.no//StructureDefinition/no-basis-urban-district'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-xpr-pasient.json ==
-WARNING: StructureDefinition.where(url = 'http://hddr.no//StructureDefinition/xpr-pasient'): The Implementation Guide contains no examples for this profile

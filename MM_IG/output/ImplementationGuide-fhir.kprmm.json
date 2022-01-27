@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "KPR_MM_IG",
   "status": "draft",
-  "date": "2022-01-26T12:06:52+01:00",
+  "date": "2022-01-27T08:52:04+01:00",
   "jurisdiction": [
     {
       "coding": [
@@ -453,10 +453,122 @@
           }
         ],
         "reference": {
-          "reference": "Bundle/KPRminiMeldingMessageBundle2Example1"
+          "reference": "Bundle/100mmMessageBundle1Fid638"
         },
-        "name": "KPRminiMeldingMessageBundle2Example1",
+        "name": "100mmMessageBundle1Fid638",
+        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - melding nivå 1",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/111XPRmunicipalityOrganizationFid638"
+        },
+        "name": "111XPRmunicipalityOrganizationFid638",
+        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - organisasjonsdetaljer nivå 2",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/120mmMessageBundle2Fid638"
+        },
+        "name": "120mmMessageBundle2Fid638",
         "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - notifikasjon bundle nivå 2",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MessageDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MessageDefinition/122mmMessageDefinitionFid638"
+        },
+        "name": "122mmMessageDefinitionFid638",
+        "description": "Provides the løpenummer",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/130mmTjenesteFid638"
+        },
+        "name": "130mmTjenesteFid638",
+        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - payload midlertidigStoppTil",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/140XPRPatientFid638"
+        },
+        "name": "140XPRPatientFid638",
+        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/xpr-pasient"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/200mmMessageBundle1Fid721"
+        },
+        "name": "200mmMessageBundle1Fid721",
+        "description": "Multi notifikasjon om tjeneste for bruker fid 04067359721 - melding nivå 1",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/202XPRmunicipalityOrganizationFid721"
+        },
+        "name": "202XPRmunicipalityOrganizationFid721",
+        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820721 - organisasjonsdetaljer nivå 2",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/220mmMessageBundle2Fid652"
+        },
+        "name": "220mmMessageBundle2Fid652",
+        "description": "Multi notifikasjon om tjeneste for bruker fid 04067359652 - notifikasjon bundle nivå 2",
         "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"
       },
       {
@@ -467,11 +579,95 @@
           }
         ],
         "reference": {
-          "reference": "Bundle/minimeldingMessageBundle1Example1"
+          "reference": "Bundle/220mmMessageBundle2Fid721"
         },
-        "name": "minimeldingMessageBundle1Example1",
-        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820638 - melding nivå 1",
-        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1"
+        "name": "220mmMessageBundle2Fid721",
+        "description": "Multi notifikasjon om tjeneste for bruker fid 04067359721 - notifikasjon bundle nivå 2",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle2"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MessageDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MessageDefinition/222mmMessageDefinitionFid652"
+        },
+        "name": "222mmMessageDefinitionFid652",
+        "description": "Provides the løpenummer",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MessageDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MessageDefinition/222mmMessageDefinitionFid721"
+        },
+        "name": "222mmMessageDefinitionFid721",
+        "description": "Provides the løpenummer",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/230mmTjenesteFid652"
+        },
+        "name": "230mmTjenesteFid652",
+        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820652 - payload midlertidigStoppTil",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/230mmTjenesteFid721"
+        },
+        "name": "230mmTjenesteFid721",
+        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820721 - payload midlertidigStoppTil",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/240XPRPatientFid652"
+        },
+        "name": "240XPRPatientFid652",
+        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820652",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/xpr-pasient"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/240XPRPatientFid721"
+        },
+        "name": "240XPRPatientFid721",
+        "description": "Enkelt notifikasjon om tjeneste for bruker fid 28077820721",
+        "exampleCanonical": "http://hddr.no//StructureDefinition/xpr-pasient"
       }
     ],
     "page": {

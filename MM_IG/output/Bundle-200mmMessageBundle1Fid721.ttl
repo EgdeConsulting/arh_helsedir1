@@ -1,0 +1,99 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hddr.no/Bundle/200mmMessageBundle1Fid721> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "200mmMessageBundle1Fid721"];
+  fhir:Resource.meta [
+     fhir:Element.id [ fhir:value "748b-8352b637-480f-8454-9f3bb761e932" ];
+     fhir:Meta.profile [
+       fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1";
+       fhir:index 0;
+       fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-bundle1>
+     ]
+  ];
+  fhir:Bundle.identifier [
+     fhir:Identifier.value [ fhir:value "56.0.0" ]
+  ];
+  fhir:Bundle.type [ fhir:value "message"];
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.fullUrl [ fhir:value "http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1" ];
+     fhir:Bundle.entry.resource <http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1>
+  ] .
+
+<http://hddr.no/fhir/MessageHeader/minimeldingMessageHeader1/1> a fhir:Organization;
+  fhir:Resource.id [ fhir:value "202XPRmunicipalityOrganizationFid721"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune";
+       fhir:index 0;
+       fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-kommune>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"202XPRmunicipalityOrganizationFid721\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-kpr-mm-iplos-i-kpr-kommune.html\">KPR minimelding Kommune</a></p></div><p><b>identifier</b>: id: 1816</p><blockquote><p><b>contact</b></p><p><b>purpose</b>: 16 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#16)</span></p><p><b>name</b>: Fredrik Jørgensen</p><p><b>telecom</b>: <a href=\"tel:+4740957287\">+47 40 95 72 87</a>, <a href=\"mailto:Fredrik_Roed@gmail.com\">Fredrik_Roed@gmail.com</a>, <a href=\"mailto:Erik_Jacobsen53@hotmail.com\">Erik_Jacobsen53@hotmail.com</a></p></blockquote><blockquote><p><b>contact</b></p><p><b>purpose</b>: 17 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#17)</span></p><p><b>name</b>: Odd Ryan</p><p><b>telecom</b>: <a href=\"mailto:Malin37@gmail.com\">Malin37@gmail.com</a>, <a href=\"mailto:Ingrid_Arnesen94@yahoo.com\">Ingrid_Arnesen94@yahoo.com</a></p></blockquote></div>"
+  ];
+  fhir:Organization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.3403" ];
+     fhir:Identifier.value [ fhir:value "1816" ]
+  ];
+  fhir:Organization.contact [
+     fhir:index 0;
+     fhir:Organization.contact.purpose [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "16" ]
+       ]
+     ];
+     fhir:Organization.contact.name [
+       fhir:HumanName.text [ fhir:value "Fredrik Jørgensen" ]
+     ];
+     fhir:Organization.contact.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "phone" ];
+       fhir:ContactPoint.value [ fhir:value "+47 40 95 72 87" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "Fredrik_Roed@gmail.com" ]
+     ], [
+       fhir:index 2;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "Erik_Jacobsen53@hotmail.com" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Organization.contact.purpose [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "17" ]
+       ]
+     ];
+     fhir:Organization.contact.name [
+       fhir:HumanName.text [ fhir:value "Odd Ryan" ]
+     ];
+     fhir:Organization.contact.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "Malin37@gmail.com" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "Ingrid_Arnesen94@yahoo.com" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hddr.no/Bundle/200mmMessageBundle1Fid721.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

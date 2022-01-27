@@ -1,0 +1,65 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hddr.no/Encounter/230mmTjenesteFid721> a fhir:Encounter;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "230mmTjenesteFid721"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste";
+       fhir:index 0;
+       fhir:link <http://hddr.no//StructureDefinition/kpr-mm-iplos-i-kpr-tjeneste>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"230mmTjenesteFid721\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-kpr-mm-iplos-i-kpr-tjeneste.html\">Mini melding tjeneste payload</a></p></div><p><b>identifier</b>: hendelseGUID: 92e2b895-ab71-76a7-ba7d-45cd9b16f926, tjenesteID: 4217</p><p><b>status</b>: planned</p><p><b>class</b>: HH (Details: [not stated] code HH = 'HH', stated as 'null')</p><p><b>subject</b>: <a href=\"Patient-240XPRPatientFid721.html\">Patient/240XPRPatientFid721</a></p><h3>Participants</h3><table class=\"grid\"><tr><td>-</td><td><b>Period</b></td></tr><tr><td>*</td><td>2022-01-26T07:01:37.2912106Z --&gt; (ongoing)</td></tr></table><p><b>period</b>: 2022-01-26T07:55:58.0508469Z --&gt; (ongoing)</p></div>"
+  ];
+  fhir:Encounter.identifier [
+     fhir:index 0;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "hendelseGUID" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "92e2b895-ab71-76a7-ba7d-45cd9b16f926" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "tjenesteID" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "4217" ]
+  ];
+  fhir:Encounter.status [ fhir:value "planned"];
+  fhir:Encounter.class [
+     fhir:Coding.code [ fhir:value "HH" ]
+  ];
+  fhir:Encounter.subject [
+     fhir:link <http://hddr.no/Patient/240XPRPatientFid721>;
+     fhir:Reference.reference [ fhir:value "Patient/240XPRPatientFid721" ]
+  ];
+  fhir:Encounter.participant [
+     fhir:index 0;
+     fhir:Encounter.participant.period [
+       fhir:Period.start [ fhir:value "2022-01-26T07:01:37.2912106+00:00"^^xsd:dateTime ]
+     ]
+  ];
+  fhir:Encounter.period [
+     fhir:Period.start [ fhir:value "2022-01-26T07:55:58.0508469+00:00"^^xsd:dateTime ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hddr.no/Encounter/230mmTjenesteFid721.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
